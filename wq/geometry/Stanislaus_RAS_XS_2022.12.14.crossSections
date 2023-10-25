@@ -1,0 +1,6 @@
+Name=Stanislaus_RAS_XS_2022.12.14
+Description=Cross Sections for RAS Cross Section file Stanislaus_RAS_XS_2022.12.14.shp
+RasFile=rss/ras-exports/Stanislaus_RAS_XS_2022.12.14.shp
+RiverColumn=River
+ReachColumn=Reach
+StationColumn=River Stat

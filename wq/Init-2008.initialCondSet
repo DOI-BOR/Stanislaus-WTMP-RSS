@@ -1,0 +1,793 @@
+{
+  "index" : 3654,
+  "name" : "Init-2008",
+  "description" : "",
+  "Description" : "",
+  "Index" : 3654,
+  "Name" : "Init-2008",
+  "constituentId" : 94,
+  "geometryId" : 3113,
+  "lastModifiedTime" : 1684526874415,
+  "ressimVersion" : "CWMS3.2.1-04/24/2020",
+  "set" : {
+    "boundaryEntries" : [ {
+      "constituentId" : 2,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 10.0
+      },
+      "ref" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3113,
+        "id" : 5,
+        "jnctId" : 20,
+        "name" : "Stanislaus R below Goodwin Dam",
+        "type" : "RIVER_2_RIVER"
+      }
+    }, {
+      "constituentId" : 2,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 10.0
+      },
+      "ref" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3113,
+        "id" : 2,
+        "jnctId" : 9,
+        "name" : "Stanislaus R at Tulloch Reservoir",
+        "type" : "RIVER_2_RESERVOIR"
+      }
+    }, {
+      "constituentId" : 2,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 10.0
+      },
+      "ref" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3113,
+        "id" : 4,
+        "jnctId" : 14,
+        "name" : "Goodwin Dam",
+        "type" : "RIVER_2_RIVER"
+      }
+    }, {
+      "constituentId" : 2,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 10.0
+      },
+      "ref" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3113,
+        "id" : 1,
+        "jnctId" : 3,
+        "name" : "Stanislaus R at New Melones Dam",
+        "type" : "RESERVOIR_2_RIVER"
+      }
+    }, {
+      "constituentId" : 2,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 10.0
+      },
+      "ref" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3113,
+        "id" : 6,
+        "jnctId" : 15,
+        "name" : "Stanislaus R at Orange Blossom Bridge",
+        "type" : "RIVER_2_RIVER"
+      }
+    }, {
+      "constituentId" : 2,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 10.0
+      },
+      "ref" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3113,
+        "id" : 7,
+        "jnctId" : 19,
+        "name" : "Stanislaus R at Oakdale",
+        "type" : "RIVER_2_RIVER"
+      }
+    }, {
+      "constituentId" : 2,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 10.0
+      },
+      "ref" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3113,
+        "id" : 8,
+        "jnctId" : 36,
+        "name" : "Stanislaus R at Ripon",
+        "type" : "RIVER_2_RIVER"
+      }
+    }, {
+      "constituentId" : 2,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 10.0
+      },
+      "ref" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3113,
+        "id" : 3,
+        "jnctId" : 10,
+        "name" : "Stanislaus R at Tulloch Dam",
+        "type" : "RESERVOIR_2_RIVER"
+      }
+    }, {
+      "constituentId" : 1,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 10.0
+      },
+      "ref" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3113,
+        "id" : 5,
+        "jnctId" : 20,
+        "name" : "Stanislaus R below Goodwin Dam",
+        "type" : "RIVER_2_RIVER"
+      }
+    }, {
+      "constituentId" : 1,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 10.0
+      },
+      "ref" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3113,
+        "id" : 2,
+        "jnctId" : 9,
+        "name" : "Stanislaus R at Tulloch Reservoir",
+        "type" : "RIVER_2_RESERVOIR"
+      }
+    }, {
+      "constituentId" : 1,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 10.0
+      },
+      "ref" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3113,
+        "id" : 4,
+        "jnctId" : 14,
+        "name" : "Goodwin Dam",
+        "type" : "RIVER_2_RIVER"
+      }
+    }, {
+      "constituentId" : 1,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 10.0
+      },
+      "ref" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3113,
+        "id" : 1,
+        "jnctId" : 3,
+        "name" : "Stanislaus R at New Melones Dam",
+        "type" : "RESERVOIR_2_RIVER"
+      }
+    }, {
+      "constituentId" : 1,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 10.0
+      },
+      "ref" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3113,
+        "id" : 6,
+        "jnctId" : 15,
+        "name" : "Stanislaus R at Orange Blossom Bridge",
+        "type" : "RIVER_2_RIVER"
+      }
+    }, {
+      "constituentId" : 1,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 10.0
+      },
+      "ref" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3113,
+        "id" : 7,
+        "jnctId" : 19,
+        "name" : "Stanislaus R at Oakdale",
+        "type" : "RIVER_2_RIVER"
+      }
+    }, {
+      "constituentId" : 1,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 10.0
+      },
+      "ref" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3113,
+        "id" : 8,
+        "jnctId" : 36,
+        "name" : "Stanislaus R at Ripon",
+        "type" : "RIVER_2_RIVER"
+      }
+    }, {
+      "constituentId" : 1,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 10.0
+      },
+      "ref" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3113,
+        "id" : 3,
+        "jnctId" : 10,
+        "name" : "Stanislaus R at Tulloch Dam",
+        "type" : "RESERVOIR_2_RIVER"
+      }
+    } ],
+    "description" : "",
+    "name" : "Init-2008",
+    "reachInterpolationType" : "ONEWAYFORWARD",
+    "reservoirInterpolationType" : "LINEAR",
+    "subDomainEntries" : [ {
+      "depth" : 353.9702828,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 8.82
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 5,
+        "name" : "Tulloch Reservoir",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 956.083988,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 10.13
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 1,
+        "name" : "New Melones Lake",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 439.9282908,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 9.34
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 5,
+        "name" : "Tulloch Reservoir",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 876.68766,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 10.1
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 1,
+        "name" : "New Melones Lake",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 377.5923308,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 8.87
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 5,
+        "name" : "Tulloch Reservoir",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 1003.0,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 10.19
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 1,
+        "name" : "New Melones Lake",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 701.16272,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 9.61
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 1,
+        "name" : "New Melones Lake",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 768.41994,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 9.72
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 1,
+        "name" : "New Melones Lake",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 969.207348,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 10.13
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 1,
+        "name" : "New Melones Lake",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 749.062984,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 9.66
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 1,
+        "name" : "New Melones Lake",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 455.3482388,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 9.7
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 5,
+        "name" : "Tulloch Reservoir",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 480.6107068,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 9.86
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 5,
+        "name" : "Tulloch Reservoir",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 994.7979,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 10.15
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 1,
+        "name" : "New Melones Lake",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 920.979,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 10.12
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 1,
+        "name" : "New Melones Lake",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 467.4873468,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 9.72
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 5,
+        "name" : "Tulloch Reservoir",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 495.2104448,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 10.245
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 5,
+        "name" : "Tulloch Reservoir",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 692.96062,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 9.61
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 1,
+        "name" : "New Melones Lake",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 802.212592,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 9.94
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 1,
+        "name" : "New Melones Lake",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 415.9781588,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 9.07
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 5,
+        "name" : "Tulloch Reservoir",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 353.9702828,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 8.82
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 5,
+        "name" : "Tulloch Reservoir",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 956.083988,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 10.13
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 1,
+        "name" : "New Melones Lake",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 439.9282908,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 9.34
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 5,
+        "name" : "Tulloch Reservoir",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 876.68766,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 10.1
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 1,
+        "name" : "New Melones Lake",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 377.5923308,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 8.87
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 5,
+        "name" : "Tulloch Reservoir",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 1003.0,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 10.19
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 1,
+        "name" : "New Melones Lake",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 701.16272,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 9.61
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 1,
+        "name" : "New Melones Lake",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 768.41994,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 9.72
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 1,
+        "name" : "New Melones Lake",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 969.207348,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 10.13
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 1,
+        "name" : "New Melones Lake",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 749.062984,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 9.66
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 1,
+        "name" : "New Melones Lake",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 455.3482388,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 9.7
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 5,
+        "name" : "Tulloch Reservoir",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 480.6107068,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 9.86
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 5,
+        "name" : "Tulloch Reservoir",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 994.7979,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 10.15
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 1,
+        "name" : "New Melones Lake",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 920.979,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 10.12
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 1,
+        "name" : "New Melones Lake",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 467.4873468,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 9.72
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 5,
+        "name" : "Tulloch Reservoir",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 495.2104448,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 10.245
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 5,
+        "name" : "Tulloch Reservoir",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 692.96062,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 9.61
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 1,
+        "name" : "New Melones Lake",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 802.212592,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 9.94
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 1,
+        "name" : "New Melones Lake",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 415.9781588,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 9.07
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 5,
+        "name" : "Tulloch Reservoir",
+        "type" : "RESERVOIR_1DV"
+      }
+    } ]
+  },
+  "version" : 1
+}

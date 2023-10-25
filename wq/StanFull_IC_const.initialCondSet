@@ -1,0 +1,371 @@
+{
+  "index" : 3115,
+  "name" : "StanFull_IC_const",
+  "description" : "",
+  "Description" : "",
+  "Index" : 3115,
+  "Name" : "StanFull_IC_const",
+  "constituentId" : 94,
+  "geometryId" : 3113,
+  "lastModifiedTime" : 1684177503304,
+  "ressimVersion" : "CWMS3.2.1-04/24/2020",
+  "set" : {
+    "boundaryEntries" : [ {
+      "constituentId" : 2,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 10.5
+      },
+      "ref" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3113,
+        "id" : 6,
+        "jnctId" : 15,
+        "name" : "Stanislaus R at Orange Blossom Bridge",
+        "type" : "RIVER_2_RIVER"
+      }
+    }, {
+      "constituentId" : 2,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 10.5
+      },
+      "ref" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3113,
+        "id" : 7,
+        "jnctId" : 19,
+        "name" : "Stanislaus R at Oakdale",
+        "type" : "RIVER_2_RIVER"
+      }
+    }, {
+      "constituentId" : 2,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 10.5
+      },
+      "ref" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3113,
+        "id" : 8,
+        "jnctId" : 36,
+        "name" : "Stanislaus R at Ripon",
+        "type" : "RIVER_2_RIVER"
+      }
+    }, {
+      "constituentId" : 2,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 10.5
+      },
+      "ref" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3113,
+        "id" : 9,
+        "jnctId" : 34,
+        "name" : "Stanislaus R at San Joaquin R",
+        "type" : "RIVER_OUTFLOW"
+      }
+    }, {
+      "constituentId" : 2,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 10.5
+      },
+      "ref" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3113,
+        "id" : 4,
+        "jnctId" : 14,
+        "name" : "Goodwin Dam",
+        "type" : "RIVER_2_RIVER"
+      }
+    }, {
+      "constituentId" : 2,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 10.5
+      },
+      "ref" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3113,
+        "id" : 5,
+        "jnctId" : 20,
+        "name" : "Stanislaus R below Goodwin Dam",
+        "type" : "RIVER_2_RIVER"
+      }
+    }, {
+      "constituentId" : 2,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2
+      },
+      "ref" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3113,
+        "id" : 1,
+        "jnctId" : 3,
+        "name" : "Stanislaus R at New Melones Dam",
+        "type" : "RESERVOIR_2_RIVER"
+      }
+    }, {
+      "constituentId" : 2,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 10.5
+      },
+      "ref" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3113,
+        "id" : 2,
+        "jnctId" : 9,
+        "name" : "Stanislaus R at Tulloch Reservoir",
+        "type" : "RIVER_2_RESERVOIR"
+      }
+    }, {
+      "constituentId" : 1,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 10.5
+      },
+      "ref" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3113,
+        "id" : 6,
+        "jnctId" : 15,
+        "name" : "Stanislaus R at Orange Blossom Bridge",
+        "type" : "RIVER_2_RIVER"
+      }
+    }, {
+      "constituentId" : 1,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 10.5
+      },
+      "ref" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3113,
+        "id" : 7,
+        "jnctId" : 19,
+        "name" : "Stanislaus R at Oakdale",
+        "type" : "RIVER_2_RIVER"
+      }
+    }, {
+      "constituentId" : 1,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 10.5
+      },
+      "ref" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3113,
+        "id" : 8,
+        "jnctId" : 36,
+        "name" : "Stanislaus R at Ripon",
+        "type" : "RIVER_2_RIVER"
+      }
+    }, {
+      "constituentId" : 1,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 10.5
+      },
+      "ref" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3113,
+        "id" : 9,
+        "jnctId" : 34,
+        "name" : "Stanislaus R at San Joaquin R",
+        "type" : "RIVER_OUTFLOW"
+      }
+    }, {
+      "constituentId" : 1,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 10.5
+      },
+      "ref" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3113,
+        "id" : 4,
+        "jnctId" : 14,
+        "name" : "Goodwin Dam",
+        "type" : "RIVER_2_RIVER"
+      }
+    }, {
+      "constituentId" : 1,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 10.5
+      },
+      "ref" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3113,
+        "id" : 5,
+        "jnctId" : 20,
+        "name" : "Stanislaus R below Goodwin Dam",
+        "type" : "RIVER_2_RIVER"
+      }
+    }, {
+      "constituentId" : 1,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1
+      },
+      "ref" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3113,
+        "id" : 1,
+        "jnctId" : 3,
+        "name" : "Stanislaus R at New Melones Dam",
+        "type" : "RESERVOIR_2_RIVER"
+      }
+    }, {
+      "constituentId" : 1,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 10.5
+      },
+      "ref" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3113,
+        "id" : 2,
+        "jnctId" : 9,
+        "name" : "Stanislaus R at Tulloch Reservoir",
+        "type" : "RIVER_2_RESERVOIR"
+      }
+    } ],
+    "description" : "",
+    "name" : "StanFull_IC_const",
+    "reachInterpolationType" : "ONEWAYFORWARD",
+    "reservoirInterpolationType" : "LINEAR",
+    "subDomainEntries" : [ {
+      "depth" : 555.0,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 10.5
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 5,
+        "name" : "Tulloch Reservoir",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 1130.0,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 10.5
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 1,
+        "name" : "New Melones Lake",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 600.0,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 10.0
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 1,
+        "name" : "New Melones Lake",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 410.0,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 2,
+        "override" : 10.0
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 5,
+        "name" : "Tulloch Reservoir",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 555.0,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 10.5
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 5,
+        "name" : "Tulloch Reservoir",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 1130.0,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 10.5
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 1,
+        "name" : "New Melones Lake",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 600.0,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 10.0
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 1,
+        "name" : "New Melones Lake",
+        "type" : "RESERVOIR_1DV"
+      }
+    }, {
+      "depth" : 410.0,
+      "initialCondition" : {
+        "@type" : "WQInitialCondition",
+        "constituentId" : 1,
+        "override" : 10.0
+      },
+      "ref" : {
+        "@type" : "WQSubDomainRef",
+        "geometryId" : 3113,
+        "id" : 5,
+        "name" : "Tulloch Reservoir",
+        "type" : "RESERVOIR_1DV"
+      }
+    } ]
+  },
+  "version" : 1
+}

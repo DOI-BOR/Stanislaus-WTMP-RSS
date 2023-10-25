@@ -1,0 +1,130 @@
+{
+  "index" : 3117,
+  "name" : "StanFull_DZ",
+  "description" : "",
+  "Description" : "",
+  "Index" : 3117,
+  "Name" : "StanFull_DZ",
+  "geometryId" : 3113,
+  "lastModifiedTime" : 1684783225235,
+  "ressimVersion" : "CWMS3.2.1-04/24/2020",
+  "set" : {
+    "@type" : "WQDispersionCoefSettings",
+    "id" : 0,
+    "name" : "StanFull_DZ",
+    "description" : "",
+    "reachSettings" : {
+      "@type" : "WQReachDispersionSettings",
+      "dispersionType" : "GLOBAL",
+      "globalValue" : 10.0,
+      "reachValues" : [ {
+        "constant" : "-Infinity",
+        "lowerEnd" : "-Infinity",
+        "reachId" : 3,
+        "upperEnd" : "-Infinity"
+      }, {
+        "constant" : "-Infinity",
+        "lowerEnd" : "-Infinity",
+        "reachId" : 7,
+        "upperEnd" : "-Infinity"
+      }, {
+        "constant" : "-Infinity",
+        "lowerEnd" : "-Infinity",
+        "reachId" : 9,
+        "upperEnd" : "-Infinity"
+      }, {
+        "constant" : "-Infinity",
+        "lowerEnd" : "-Infinity",
+        "reachId" : 11,
+        "upperEnd" : "-Infinity"
+      }, {
+        "constant" : "-Infinity",
+        "lowerEnd" : "-Infinity",
+        "reachId" : 13,
+        "upperEnd" : "-Infinity"
+      }, {
+        "constant" : "-Infinity",
+        "lowerEnd" : "-Infinity",
+        "reachId" : 15,
+        "upperEnd" : "-Infinity"
+      }, {
+        "constant" : "-Infinity",
+        "lowerEnd" : "-Infinity",
+        "reachId" : 17,
+        "upperEnd" : "-Infinity"
+      } ],
+      "valueByReachType" : "CONSTANT"
+    },
+    "reservoirSettingsSet" : {
+      "@type" : "WQReservoirDispersionSettingsSet",
+      "entries" : [ {
+        "key" : {
+          "@type" : "WQSubDomainRef",
+          "geometryId" : 3113,
+          "id" : 1,
+          "name" : "New Melones Lake",
+          "type" : "RESERVOIR_1DV"
+        },
+        "value" : {
+          "@type" : "WQReservoirDispersionSettings",
+          "alternateMixingMethod" : "MUNK_ANDERSON",
+          "munkAndersonData" : {
+            "@type" : "MunkAndersonDispersionData",
+            "acoeff" : 0.1,
+            "bcoeff" : 0.75,
+            "ccoeff" : 0.05,
+            "dzmin" : 2.3E-5
+          },
+          "stabilityData" : {
+            "@type" : "StabilityDispersionData",
+            "a1" : 3.23E-5,
+            "a3" : 0.7,
+            "ecrit" : 1.0E-7
+          },
+          "verticalMixingType" : "ALTERNATE_METHOD",
+          "windData" : {
+            "@type" : "WindDispersionData",
+            "a1" : 3.28E-5,
+            "a2" : 4.6,
+            "dzmax" : "-Infinity",
+            "dzmin" : 1.08E-5
+          }
+        }
+      }, {
+        "key" : {
+          "@type" : "WQSubDomainRef",
+          "geometryId" : 3113,
+          "id" : 5,
+          "name" : "Tulloch Reservoir",
+          "type" : "RESERVOIR_1DV"
+        },
+        "value" : {
+          "@type" : "WQReservoirDispersionSettings",
+          "alternateMixingMethod" : "WIND",
+          "munkAndersonData" : {
+            "@type" : "MunkAndersonDispersionData",
+            "acoeff" : 3.33,
+            "bcoeff" : 1.5,
+            "ccoeff" : 0.0984252,
+            "dzmin" : 0.0
+          },
+          "stabilityData" : {
+            "@type" : "StabilityDispersionData",
+            "a1" : 3.23E-5,
+            "a3" : 0.7,
+            "ecrit" : 1.0E-7
+          },
+          "verticalMixingType" : "ALTERNATE_METHOD",
+          "windData" : {
+            "@type" : "WindDispersionData",
+            "a1" : 0.0,
+            "a2" : 3.0,
+            "dzmax" : "-Infinity",
+            "dzmin" : 2.0E-5
+          }
+        }
+      } ]
+    }
+  },
+  "version" : 1
+}

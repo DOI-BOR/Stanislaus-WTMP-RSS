@@ -1,0 +1,327 @@
+{
+  "index" : 3152,
+  "name" : "StanRiverOnly_BC",
+  "description" : "",
+  "Description" : "",
+  "Index" : 3152,
+  "Name" : "StanRiverOnly_BC",
+  "constituentSetId" : 94,
+  "geometryId" : 3151,
+  "lastModifiedTime" : 1684180054131,
+  "ressimVersion" : "CWMS3.2.1-04/24/2020",
+  "set" : {
+    "boundaryConditions" : [ {
+      "@type" : "WQBoundaryCondition",
+      "boundaryRef" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3151,
+        "id" : 17,
+        "jnctId" : 15,
+        "name" : "Stanislaus R at Orange Blossom Bridge - Stanislaus R at Orange Blossom Bridge Balance Flow",
+        "type" : "LOCAL_INFLOW"
+      },
+      "constituentId" : 1,
+      "dataSources" : [ {
+        "@type" : "TableData",
+        "availableUnits" : [ ],
+        "compType" : 2,
+        "dates" : [ ],
+        "description" : "",
+        "name" : "Table Data",
+        "values" : [ ]
+      }, {
+        "@type" : "DssData",
+        "DSS Path" : "",
+        "availableUnits" : [ "\u00B0C" ],
+        "compType" : 0,
+        "description" : "",
+        "name" : "DSS"
+      }, {
+        "@type" : "ExcelData",
+        "availableUnits" : [ ],
+        "bottomRow" : 0,
+        "compType" : 2,
+        "description" : "",
+        "name" : "Excel Worksheet",
+        "timeColumn" : "",
+        "topRow" : 0,
+        "valueColumn" : "",
+        "worksheetName" : ""
+      }, {
+        "@type" : "ConstantData",
+        "availableUnits" : [ "\u00B0C" ],
+        "compType" : 2,
+        "description" : "",
+        "name" : "Constant Value",
+        "value" : "-Infinity"
+      }, {
+        "@type" : "AmbientData",
+        "OptionType" : "AVERAGE_AT_JUNCTION",
+        "availableUnits" : [ "\u00B0C" ],
+        "compType" : 2,
+        "description" : "",
+        "name" : "Ambient Value"
+      } ],
+      "selectedDataSource" : {
+        "@type" : "AmbientData",
+        "OptionType" : "AVERAGE_AT_JUNCTION",
+        "availableUnits" : [ "\u00B0C" ],
+        "compType" : 2,
+        "description" : "",
+        "name" : "Ambient Value"
+      },
+      "units" : [ "\u00B0C" ]
+    }, {
+      "@type" : "WQBoundaryCondition",
+      "boundaryRef" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3151,
+        "id" : 13,
+        "jnctId" : 14,
+        "name" : "Goodwin Dam - Goodwin Flow Balance",
+        "type" : "LOCAL_INFLOW"
+      },
+      "constituentId" : 1,
+      "dataSources" : [ {
+        "@type" : "TableData",
+        "availableUnits" : [ ],
+        "compType" : 2,
+        "dates" : [ ],
+        "description" : "",
+        "name" : "Table Data",
+        "values" : [ ]
+      }, {
+        "@type" : "DssData",
+        "DSS Path" : "",
+        "availableUnits" : [ "\u00B0C" ],
+        "compType" : 0,
+        "description" : "",
+        "name" : "DSS"
+      }, {
+        "@type" : "ExcelData",
+        "availableUnits" : [ ],
+        "bottomRow" : 0,
+        "compType" : 2,
+        "description" : "",
+        "name" : "Excel Worksheet",
+        "timeColumn" : "",
+        "topRow" : 0,
+        "valueColumn" : "",
+        "worksheetName" : ""
+      }, {
+        "@type" : "ConstantData",
+        "availableUnits" : [ "\u00B0C" ],
+        "compType" : 2,
+        "description" : "",
+        "name" : "Constant Value",
+        "value" : "-Infinity"
+      }, {
+        "@type" : "AmbientData",
+        "OptionType" : "AVERAGE_AT_JUNCTION",
+        "availableUnits" : [ "\u00B0C" ],
+        "compType" : 2,
+        "description" : "",
+        "name" : "Ambient Value"
+      } ],
+      "selectedDataSource" : {
+        "@type" : "AmbientData",
+        "OptionType" : "AVERAGE_AT_JUNCTION",
+        "availableUnits" : [ "\u00B0C" ],
+        "compType" : 2,
+        "description" : "",
+        "name" : "Ambient Value"
+      },
+      "units" : [ "\u00B0C" ]
+    }, {
+      "@type" : "WQBoundaryCondition",
+      "boundaryRef" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3151,
+        "id" : 18,
+        "jnctId" : 36,
+        "name" : "Stanislaus R at Ripon - Stanislaus R at Ripon Balance Flow",
+        "type" : "LOCAL_INFLOW"
+      },
+      "constituentId" : 1,
+      "dataSources" : [ {
+        "@type" : "TableData",
+        "availableUnits" : [ ],
+        "compType" : 2,
+        "dates" : [ ],
+        "description" : "",
+        "name" : "Table Data",
+        "values" : [ ]
+      }, {
+        "@type" : "DssData",
+        "DSS Path" : "",
+        "availableUnits" : [ "\u00B0C" ],
+        "compType" : 0,
+        "description" : "",
+        "name" : "DSS"
+      }, {
+        "@type" : "ExcelData",
+        "availableUnits" : [ ],
+        "bottomRow" : 0,
+        "compType" : 2,
+        "description" : "",
+        "name" : "Excel Worksheet",
+        "timeColumn" : "",
+        "topRow" : 0,
+        "valueColumn" : "",
+        "worksheetName" : ""
+      }, {
+        "@type" : "ConstantData",
+        "availableUnits" : [ "\u00B0C" ],
+        "compType" : 2,
+        "description" : "",
+        "name" : "Constant Value",
+        "value" : "-Infinity"
+      }, {
+        "@type" : "AmbientData",
+        "OptionType" : "AVERAGE_AT_JUNCTION",
+        "availableUnits" : [ "\u00B0C" ],
+        "compType" : 2,
+        "description" : "",
+        "name" : "Ambient Value"
+      } ],
+      "selectedDataSource" : {
+        "@type" : "AmbientData",
+        "OptionType" : "AVERAGE_AT_JUNCTION",
+        "availableUnits" : [ "\u00B0C" ],
+        "compType" : 2,
+        "description" : "",
+        "name" : "Ambient Value"
+      },
+      "units" : [ "\u00B0C" ]
+    }, {
+      "@type" : "WQBoundaryCondition",
+      "boundaryRef" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3151,
+        "id" : 16,
+        "jnctId" : 20,
+        "name" : "Stanislaus R below Goodwin Dam - Below Goodwin Dam Balance Flow",
+        "type" : "LOCAL_INFLOW"
+      },
+      "constituentId" : 1,
+      "dataSources" : [ {
+        "@type" : "TableData",
+        "availableUnits" : [ ],
+        "compType" : 2,
+        "dates" : [ ],
+        "description" : "",
+        "name" : "Table Data",
+        "values" : [ ]
+      }, {
+        "@type" : "DssData",
+        "DSS Path" : "",
+        "availableUnits" : [ "\u00B0C" ],
+        "compType" : 0,
+        "description" : "",
+        "name" : "DSS"
+      }, {
+        "@type" : "ExcelData",
+        "availableUnits" : [ ],
+        "bottomRow" : 0,
+        "compType" : 2,
+        "description" : "",
+        "name" : "Excel Worksheet",
+        "timeColumn" : "",
+        "topRow" : 0,
+        "valueColumn" : "",
+        "worksheetName" : ""
+      }, {
+        "@type" : "ConstantData",
+        "availableUnits" : [ "\u00B0C" ],
+        "compType" : 2,
+        "description" : "",
+        "name" : "Constant Value",
+        "value" : "-Infinity"
+      }, {
+        "@type" : "AmbientData",
+        "OptionType" : "AVERAGE_AT_JUNCTION",
+        "availableUnits" : [ "\u00B0C" ],
+        "compType" : 2,
+        "description" : "",
+        "name" : "Ambient Value"
+      } ],
+      "selectedDataSource" : {
+        "@type" : "AmbientData",
+        "OptionType" : "AVERAGE_AT_JUNCTION",
+        "availableUnits" : [ "\u00B0C" ],
+        "compType" : 2,
+        "description" : "",
+        "name" : "Ambient Value"
+      },
+      "units" : [ "\u00B0C" ]
+    }, {
+      "@type" : "WQBoundaryCondition",
+      "boundaryRef" : {
+        "@type" : "WQSubDomainBoundaryRef",
+        "geometryId" : 3151,
+        "id" : 3,
+        "jnctId" : 10,
+        "name" : "Stanislaus R at Tulloch Dam",
+        "type" : "RIVER_INFLOW_IN_NETWORK"
+      },
+      "constituentId" : 1,
+      "dataSources" : [ {
+        "@type" : "TableData",
+        "availableUnits" : [ ],
+        "compType" : 2,
+        "dates" : [ ],
+        "description" : "",
+        "name" : "Table Data",
+        "values" : [ ]
+      }, {
+        "@type" : "DssData",
+        "DSS File Path" : "shared\\Stanislaus_Observed_DSSv6.dss",
+        "DSS Path" : "/CDEC/TDP_TULLOCH_POWERHOUSE_TAILRACE/TEMP-WATER//1HOUR/CDEC-EDIT-INTERP/",
+        "availableUnits" : [ "\u00B0C" ],
+        "compType" : 2,
+        "description" : "",
+        "name" : "DSS",
+        "units" : "F"
+      }, {
+        "@type" : "ExcelData",
+        "availableUnits" : [ ],
+        "bottomRow" : 0,
+        "compType" : 2,
+        "description" : "",
+        "name" : "Excel Worksheet",
+        "timeColumn" : "",
+        "topRow" : 0,
+        "valueColumn" : "",
+        "worksheetName" : ""
+      }, {
+        "@type" : "ConstantData",
+        "availableUnits" : [ "\u00B0C" ],
+        "compType" : 2,
+        "description" : "",
+        "name" : "Constant Value",
+        "value" : "-Infinity"
+      }, {
+        "@type" : "AmbientData",
+        "OptionType" : "AVERAGE_AT_JUNCTION",
+        "availableUnits" : [ "\u00B0C" ],
+        "compType" : 2,
+        "description" : "",
+        "name" : "Ambient Value"
+      } ],
+      "selectedDataSource" : {
+        "@type" : "DssData",
+        "DSS File Path" : "shared\\Stanislaus_Observed_DSSv6.dss",
+        "DSS Path" : "/CDEC/TDP_TULLOCH_POWERHOUSE_TAILRACE/TEMP-WATER//1HOUR/CDEC-EDIT-INTERP/",
+        "availableUnits" : [ "\u00B0C" ],
+        "compType" : 2,
+        "description" : "",
+        "name" : "DSS",
+        "units" : "F"
+      },
+      "units" : [ "\u00B0C" ]
+    } ],
+    "description" : "",
+    "name" : "StanRiverOnly_BC"
+  },
+  "version" : 1
+}

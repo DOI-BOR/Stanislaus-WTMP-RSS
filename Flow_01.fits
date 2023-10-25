@@ -1,0 +1,61 @@
+TSDataSet Name=Flow_01
+Description=Flow model for Stanislaus River (TS Data Set)
+
+_type=0
+ParentPath=null
+ParentClass=null
+TSRecord=0
+TSRecord Name=New Melones Stanislaus Inflow
+TSRecord VariableId=4
+TSRecord ParamName=Flow
+TSRecord DssFilename=
+TSRecord DssPathname=///////
+TSRecord InputPosition=0
+TSRecord End=
+
+TSRecord=1
+TSRecord Name=New Melones Balance Flow
+TSRecord VariableId=4
+TSRecord ParamName=Flow
+TSRecord DssFilename=
+TSRecord DssPathname=///////
+TSRecord InputPosition=0
+TSRecord End=
+
+TSRecord=2
+TSRecord Name=Tulloch Balance Flow
+TSRecord VariableId=4
+TSRecord ParamName=Flow
+TSRecord DssFilename=
+TSRecord DssPathname=///////
+TSRecord InputPosition=0
+TSRecord End=
+
+TSRecord=3
+TSRecord Name=Orange Blossom Bridge Balance Flow
+TSRecord VariableId=4
+TSRecord ParamName=Flow
+TSRecord DssFilename=
+TSRecord DssPathname=///////
+TSRecord InputPosition=0
+TSRecord End=
+
+TSRecord=4
+TSRecord Name=~E1:F
+TSRecord VariableId=14
+TSRecord ParamName=Elev
+TSRecord DssFilename=
+TSRecord DssPathname=///////
+TSRecord InputPosition=0
+TSRecord End=
+
+TSRecord=5
+TSRecord Name=~E8:F
+TSRecord VariableId=14
+TSRecord ParamName=Elev
+TSRecord DssFilename=
+TSRecord DssPathname=///////
+TSRecord InputPosition=0
+TSRecord End=
+
+

@@ -1,0 +1,38 @@
+{
+  "index" : 94,
+  "name" : "Temperature Set",
+  "description" : "",
+  "Description" : "",
+  "Index" : 94,
+  "Name" : "Temperature Set",
+  "lastModifiedTime" : 1671136066549,
+  "ressimVersion" : "CWMS3.2.1-04/24/2020",
+  "set" : {
+    "name" : "Temperature Set",
+    "description" : "",
+    "constituentList" : [ {
+      "@type" : "WQConstituent",
+      "displayName" : "Water Temperature",
+      "id" : 1,
+      "isAdvected" : true,
+      "isEvaporated" : true,
+      "isInjected" : false,
+      "libraryName" : "Temperature",
+      "name" : "Water_Temperature",
+      "referenceValue" : "-Infinity",
+      "unit" : "\u00B0C"
+    }, {
+      "@type" : "WQConstituent",
+      "displayName" : "Sediment Temperature",
+      "id" : 2,
+      "isAdvected" : false,
+      "isEvaporated" : false,
+      "isInjected" : false,
+      "libraryName" : "Temperature",
+      "name" : "Sediment_Temperature",
+      "referenceValue" : "-Infinity",
+      "unit" : "\u00B0C"
+    } ]
+  },
+  "version" : 1
+}

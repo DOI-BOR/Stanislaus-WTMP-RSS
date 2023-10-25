@@ -1,0 +1,1132 @@
+{
+  "id" : 93,
+  "name" : "Stanislaus_Met_4-stations",
+  "description" : "",
+  "metdatablending" : false,
+  "stations" : [ {
+    "name" : "Lower Stanislaus Met",
+    "active" : true,
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 6388394.832226342, 2099475.038172865 ]
+    },
+    "variables" : [ {
+      "@type" : "AtmosphericPressure",
+      "selectedDataSourceName" : "Constant Value",
+      "dataSources" : [ {
+        "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "units" : "atm",
+        "description" : "",
+        "availableUnits" : [ "mb", "mm-hg", "in-hg", "atm" ],
+        "compType" : 2,
+        "value" : 1.0
+      }, {
+        "@type" : "TableData",
+        "values" : [ ],
+        "dates" : [ ],
+        "name" : "Table Data",
+        "units" : null,
+        "description" : "",
+        "availableUnits" : [ "mb", "mm-hg", "in-hg", "atm" ],
+        "compType" : 2
+      }, {
+        "@type" : "DssData",
+        "compType" : 0,
+        "name" : "DSS",
+        "units" : null,
+        "description" : "",
+        "availableUnits" : [ "mb", "mm-hg", "in-hg", "atm" ],
+        "DSS Path" : "",
+        "DSS File Path" : null
+      }, {
+        "@type" : "ExcelData",
+        "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ "mb", "mm-hg", "in-hg", "atm" ],
+        "compType" : 2,
+        "worksheetName" : "",
+        "timeColumn" : "",
+        "valueColumn" : "",
+        "topRow" : 0,
+        "bottomRow" : 0
+      }, {
+        "@type" : "ElevationData",
+        "name" : "Elevation",
+        "description" : "",
+        "availableUnits" : [ "ft", "m" ],
+        "compType" : 2,
+        "elevation" : 0.0
+      } ]
+    }, {
+      "@type" : "AirTemperature",
+      "selectedDataSourceName" : "DSS",
+      "dataSources" : [ {
+        "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "description" : "",
+        "availableUnits" : [ "deg C", "deg F" ],
+        "compType" : 2,
+        "value" : "-Infinity"
+      }, {
+        "@type" : "TableData",
+        "values" : [ ],
+        "dates" : [ ],
+        "name" : "Table Data",
+        "units" : null,
+        "description" : "",
+        "availableUnits" : [ "deg C", "deg F" ],
+        "compType" : 2
+      }, {
+        "@type" : "DssData",
+        "compType" : 1,
+        "name" : "DSS",
+        "units" : "F",
+        "description" : "",
+        "availableUnits" : [ "deg C", "deg F" ],
+        "DSS Path" : "/USBR/GREEN_SPRING_CALC-STAN_R/TEMP-AIR//1HOUR/GRAB2/",
+        "DSS File Path" : "shared\\USBR_Stanislaus_grab2_DSSv6.dss"
+      }, {
+        "@type" : "ExcelData",
+        "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ "deg C", "deg F" ],
+        "compType" : 2,
+        "worksheetName" : "",
+        "timeColumn" : "",
+        "valueColumn" : "",
+        "topRow" : 0,
+        "bottomRow" : 0
+      } ]
+    }, {
+      "@type" : "Humidity",
+      "selectedDataSourceName" : "DSS",
+      "dataSources" : [ {
+        "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "description" : "",
+        "availableUnits" : [ "Relative Humidity, %", "Dewpt T, deg C", "Dewpt T, deg F", "Wetbulb T, deg C", "Wetbulb T, deg F", "mm-Hg", "in-Hg", "mb", "kPa" ],
+        "compType" : 2,
+        "value" : "-Infinity"
+      }, {
+        "@type" : "TableData",
+        "values" : [ ],
+        "dates" : [ ],
+        "name" : "Table Data",
+        "units" : null,
+        "description" : "",
+        "availableUnits" : [ "Relative Humidity, %", "Dewpt T, deg C", "Dewpt T, deg F", "Wetbulb T, deg C", "Wetbulb T, deg F", "mm-Hg", "in-Hg", "mb", "kPa" ],
+        "compType" : 2
+      }, {
+        "@type" : "DssData",
+        "compType" : 1,
+        "name" : "DSS",
+        "units" : "%",
+        "description" : "",
+        "availableUnits" : [ "Relative Humidity, %", "Dewpt T, deg C", "Dewpt T, deg F", "Wetbulb T, deg C", "Wetbulb T, deg F", "mm-Hg", "in-Hg", "mb", "kPa" ],
+        "DSS Path" : "/USBR/GREEN_SPRING_CALC-STAN_R/RELHUM//1HOUR/GRAB2-DERIVED/",
+        "DSS File Path" : "shared\\USBR_Stanislaus_grab2_DSSv6.dss"
+      }, {
+        "@type" : "ExcelData",
+        "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ "Relative Humidity, %", "Dewpt T, deg C", "Dewpt T, deg F", "Wetbulb T, deg C", "Wetbulb T, deg F", "mm-Hg", "in-Hg", "mb", "kPa" ],
+        "compType" : 2,
+        "worksheetName" : "",
+        "timeColumn" : "",
+        "valueColumn" : "",
+        "topRow" : 0,
+        "bottomRow" : 0
+      } ]
+    }, {
+      "@type" : "ShortWaveRadiation",
+      "selectedDataSourceName" : "DSS",
+      "dataSources" : [ {
+        "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "description" : "",
+        "availableUnits" : [ "W/m2", "Cal/cm2/day", "MJ/m2/day" ],
+        "compType" : 2,
+        "value" : "-Infinity"
+      }, {
+        "@type" : "TableData",
+        "values" : [ ],
+        "dates" : [ ],
+        "name" : "Table Data",
+        "units" : null,
+        "description" : "",
+        "availableUnits" : [ "W/m2", "Cal/cm2/day", "MJ/m2/day" ],
+        "compType" : 2
+      }, {
+        "@type" : "DssData",
+        "compType" : 1,
+        "name" : "DSS",
+        "units" : "W/m2",
+        "description" : "",
+        "availableUnits" : [ "W/m2", "Cal/cm2/day", "MJ/m2/day" ],
+        "DSS Path" : "/USBR/GREEN_SPRING_CALC/IRRAD-SOLAR//1HOUR/GRAB2-ZEROLIMIT/",
+        "DSS File Path" : "shared\\USBR_Stanislaus_grab2_DSSv6.dss"
+      }, {
+        "@type" : "ExcelData",
+        "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ "W/m2", "Cal/cm2/day", "MJ/m2/day" ],
+        "compType" : 2,
+        "worksheetName" : "",
+        "timeColumn" : "",
+        "valueColumn" : "",
+        "topRow" : 0,
+        "bottomRow" : 0
+      }, {
+        "@type" : "LatLongData",
+        "nearestMeridian" : 0,
+        "longitude" : 0.0,
+        "latitude" : 0.0,
+        "name" : "Lat-Long",
+        "description" : "",
+        "availableUnits" : [ "W/m2", "Cal/cm2/day", "MJ/m2/day" ],
+        "compType" : 2,
+        "dustCoefficient" : 0.04,
+        "interval" : 60.0
+      } ]
+    }, {
+      "@type" : "Cloudiness",
+      "selectedDataSourceName" : "DSS",
+      "dataSources" : [ {
+        "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "description" : "",
+        "availableUnits" : [ "Fraction, 0-1" ],
+        "compType" : 2,
+        "value" : "-Infinity"
+      }, {
+        "@type" : "TableData",
+        "values" : [ ],
+        "dates" : [ ],
+        "name" : "Table Data",
+        "units" : null,
+        "description" : "",
+        "availableUnits" : [ "Fraction, 0-1" ],
+        "compType" : 2
+      }, {
+        "@type" : "DssData",
+        "compType" : 1,
+        "name" : "DSS",
+        "units" : "n/a",
+        "description" : "",
+        "availableUnits" : [ "Fraction, 0-1" ],
+        "DSS Path" : "/USBR/GREEN_SPRING_CALC-0-1/CLOUD//1DAY/GRAB2-RAW/",
+        "DSS File Path" : "shared\\USBR_Stanislaus_grab2_DSSv6.dss"
+      }, {
+        "@type" : "ExcelData",
+        "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ "Fraction, 0-1" ],
+        "compType" : 2,
+        "worksheetName" : "",
+        "timeColumn" : "",
+        "valueColumn" : "",
+        "topRow" : 0,
+        "bottomRow" : 0
+      }, {
+        "@type" : "ObservedData",
+        "name" : "Compute from ObsSW and Lat-Long",
+        "description" : "",
+        "availableUnits" : [ "Fraction, 0-1" ],
+        "compType" : 2
+      } ]
+    }, {
+      "@type" : "WindSpeed",
+      "selectedDataSourceName" : "DSS",
+      "dataSources" : [ {
+        "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "description" : "",
+        "availableUnits" : [ "m/s", "ft/s", "mph", "knots" ],
+        "compType" : 2,
+        "value" : "-Infinity"
+      }, {
+        "@type" : "TableData",
+        "values" : [ ],
+        "dates" : [ ],
+        "name" : "Table Data",
+        "units" : null,
+        "description" : "",
+        "availableUnits" : [ "m/s", "ft/s", "mph", "knots" ],
+        "compType" : 2
+      }, {
+        "@type" : "DssData",
+        "compType" : 1,
+        "name" : "DSS",
+        "units" : "mph",
+        "description" : "",
+        "availableUnits" : [ "m/s", "ft/s", "mph", "knots" ],
+        "DSS Path" : "/USBR/GREEN_SPRING/SPEED-WIND//1HOUR/GRAB2-RAW/",
+        "DSS File Path" : "shared\\USBR_Stanislaus_grab2_DSSv6.dss"
+      }, {
+        "@type" : "ExcelData",
+        "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ "m/s", "ft/s", "mph", "knots" ],
+        "compType" : 2,
+        "worksheetName" : "",
+        "timeColumn" : "",
+        "valueColumn" : "",
+        "topRow" : 0,
+        "bottomRow" : 0
+      } ]
+    } ],
+    "id" : 12,
+    "description" : "",
+    "longitude" : 0.0,
+    "latitude" : 0.0,
+    "nearestMeridian" : 0,
+    "referenceElevation" : 0.0,
+    "observed" : false,
+    "metStation" : true
+  }, {
+    "name" : "New Melones Met",
+    "active" : true,
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 6547619.792549599, 2172628.7774161715 ]
+    },
+    "variables" : [ {
+      "@type" : "AtmosphericPressure",
+      "selectedDataSourceName" : "Constant Value",
+      "dataSources" : [ {
+        "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "units" : "atm",
+        "description" : "",
+        "availableUnits" : [ "mb", "mm-hg", "in-hg", "atm" ],
+        "compType" : 2,
+        "value" : 1.0
+      }, {
+        "@type" : "TableData",
+        "values" : [ ],
+        "dates" : [ ],
+        "name" : "Table Data",
+        "units" : null,
+        "description" : "",
+        "availableUnits" : [ "mb", "mm-hg", "in-hg", "atm" ],
+        "compType" : 2
+      }, {
+        "@type" : "DssData",
+        "compType" : 0,
+        "name" : "DSS",
+        "units" : null,
+        "description" : "",
+        "availableUnits" : [ "mb", "mm-hg", "in-hg", "atm" ],
+        "DSS Path" : "",
+        "DSS File Path" : null
+      }, {
+        "@type" : "ExcelData",
+        "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ "mb", "mm-hg", "in-hg", "atm" ],
+        "compType" : 2,
+        "worksheetName" : "",
+        "timeColumn" : "",
+        "valueColumn" : "",
+        "topRow" : 0,
+        "bottomRow" : 0
+      }, {
+        "@type" : "ElevationData",
+        "name" : "Elevation",
+        "description" : "",
+        "availableUnits" : [ "ft", "m" ],
+        "compType" : 2,
+        "elevation" : 0.0
+      } ]
+    }, {
+      "@type" : "AirTemperature",
+      "selectedDataSourceName" : "DSS",
+      "dataSources" : [ {
+        "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "description" : "",
+        "availableUnits" : [ "deg C", "deg F" ],
+        "compType" : 2,
+        "value" : "-Infinity"
+      }, {
+        "@type" : "TableData",
+        "values" : [ ],
+        "dates" : [ ],
+        "name" : "Table Data",
+        "units" : null,
+        "description" : "",
+        "availableUnits" : [ "deg C", "deg F" ],
+        "compType" : 2
+      }, {
+        "@type" : "DssData",
+        "compType" : 1,
+        "name" : "DSS",
+        "units" : "F",
+        "description" : "",
+        "availableUnits" : [ "deg C", "deg F" ],
+        "DSS Path" : "/USBR/GREEN_SPRING/TEMP-AIR//1HOUR/GRAB2-RAW/",
+        "DSS File Path" : "shared\\USBR_Stanislaus_grab2_DSSv6.dss"
+      }, {
+        "@type" : "ExcelData",
+        "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ "deg C", "deg F" ],
+        "compType" : 2,
+        "worksheetName" : "",
+        "timeColumn" : "",
+        "valueColumn" : "",
+        "topRow" : 0,
+        "bottomRow" : 0
+      } ]
+    }, {
+      "@type" : "Humidity",
+      "selectedDataSourceName" : "DSS",
+      "dataSources" : [ {
+        "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "description" : "",
+        "availableUnits" : [ "Relative Humidity, %", "Dewpt T, deg C", "Dewpt T, deg F", "Wetbulb T, deg C", "Wetbulb T, deg F", "mm-Hg", "in-Hg", "mb", "kPa" ],
+        "compType" : 2,
+        "value" : "-Infinity"
+      }, {
+        "@type" : "TableData",
+        "values" : [ ],
+        "dates" : [ ],
+        "name" : "Table Data",
+        "units" : null,
+        "description" : "",
+        "availableUnits" : [ "Relative Humidity, %", "Dewpt T, deg C", "Dewpt T, deg F", "Wetbulb T, deg C", "Wetbulb T, deg F", "mm-Hg", "in-Hg", "mb", "kPa" ],
+        "compType" : 2
+      }, {
+        "@type" : "DssData",
+        "compType" : 1,
+        "name" : "DSS",
+        "units" : "%",
+        "description" : "",
+        "availableUnits" : [ "Relative Humidity, %", "Dewpt T, deg C", "Dewpt T, deg F", "Wetbulb T, deg C", "Wetbulb T, deg F", "mm-Hg", "in-Hg", "mb", "kPa" ],
+        "DSS Path" : "/USBR/GREEN_SPRING/%-RELHUM//1HOUR/GRAB2-RAW/",
+        "DSS File Path" : "shared\\USBR_Stanislaus_grab2_DSSv6.dss"
+      }, {
+        "@type" : "ExcelData",
+        "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ "Relative Humidity, %", "Dewpt T, deg C", "Dewpt T, deg F", "Wetbulb T, deg C", "Wetbulb T, deg F", "mm-Hg", "in-Hg", "mb", "kPa" ],
+        "compType" : 2,
+        "worksheetName" : "",
+        "timeColumn" : "",
+        "valueColumn" : "",
+        "topRow" : 0,
+        "bottomRow" : 0
+      } ]
+    }, {
+      "@type" : "ShortWaveRadiation",
+      "selectedDataSourceName" : "DSS",
+      "dataSources" : [ {
+        "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "description" : "",
+        "availableUnits" : [ "W/m2", "Cal/cm2/day", "MJ/m2/day" ],
+        "compType" : 2,
+        "value" : "-Infinity"
+      }, {
+        "@type" : "TableData",
+        "values" : [ ],
+        "dates" : [ ],
+        "name" : "Table Data",
+        "units" : null,
+        "description" : "",
+        "availableUnits" : [ "W/m2", "Cal/cm2/day", "MJ/m2/day" ],
+        "compType" : 2
+      }, {
+        "@type" : "DssData",
+        "compType" : 1,
+        "name" : "DSS",
+        "units" : "W/m2",
+        "description" : "",
+        "availableUnits" : [ "W/m2", "Cal/cm2/day", "MJ/m2/day" ],
+        "DSS Path" : "/USBR/GREEN_SPRING_CALC/IRRAD-SOLAR//1HOUR/GRAB2-ZEROLIMIT/",
+        "DSS File Path" : "shared\\USBR_Stanislaus_grab2_DSSv6.dss"
+      }, {
+        "@type" : "ExcelData",
+        "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ "W/m2", "Cal/cm2/day", "MJ/m2/day" ],
+        "compType" : 2,
+        "worksheetName" : "",
+        "timeColumn" : "",
+        "valueColumn" : "",
+        "topRow" : 0,
+        "bottomRow" : 0
+      }, {
+        "@type" : "LatLongData",
+        "nearestMeridian" : 0,
+        "longitude" : 0.0,
+        "latitude" : 0.0,
+        "name" : "Lat-Long",
+        "description" : "",
+        "availableUnits" : [ "W/m2", "Cal/cm2/day", "MJ/m2/day" ],
+        "compType" : 2,
+        "dustCoefficient" : 0.04,
+        "interval" : 60.0
+      } ]
+    }, {
+      "@type" : "Cloudiness",
+      "selectedDataSourceName" : "DSS",
+      "dataSources" : [ {
+        "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "description" : "",
+        "availableUnits" : [ "Fraction, 0-1" ],
+        "compType" : 2,
+        "value" : "-Infinity"
+      }, {
+        "@type" : "TableData",
+        "values" : [ ],
+        "dates" : [ ],
+        "name" : "Table Data",
+        "units" : null,
+        "description" : "",
+        "availableUnits" : [ "Fraction, 0-1" ],
+        "compType" : 2
+      }, {
+        "@type" : "DssData",
+        "compType" : 1,
+        "name" : "DSS",
+        "units" : "n/a",
+        "description" : "",
+        "availableUnits" : [ "Fraction, 0-1" ],
+        "DSS Path" : "/USBR/GREEN_SPRING_CALC-0-1/CLOUD//1DAY/GRAB2-RAW/",
+        "DSS File Path" : "shared\\USBR_Stanislaus_grab2_DSSv6.dss"
+      }, {
+        "@type" : "ExcelData",
+        "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ "Fraction, 0-1" ],
+        "compType" : 2,
+        "worksheetName" : "",
+        "timeColumn" : "",
+        "valueColumn" : "",
+        "topRow" : 0,
+        "bottomRow" : 0
+      }, {
+        "@type" : "ObservedData",
+        "name" : "Compute from ObsSW and Lat-Long",
+        "description" : "",
+        "availableUnits" : [ "Fraction, 0-1" ],
+        "compType" : 2
+      } ]
+    }, {
+      "@type" : "WindSpeed",
+      "selectedDataSourceName" : "DSS",
+      "dataSources" : [ {
+        "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "description" : "",
+        "availableUnits" : [ "m/s", "ft/s", "mph", "knots" ],
+        "compType" : 2,
+        "value" : "-Infinity"
+      }, {
+        "@type" : "TableData",
+        "values" : [ ],
+        "dates" : [ ],
+        "name" : "Table Data",
+        "units" : null,
+        "description" : "",
+        "availableUnits" : [ "m/s", "ft/s", "mph", "knots" ],
+        "compType" : 2
+      }, {
+        "@type" : "DssData",
+        "compType" : 1,
+        "name" : "DSS",
+        "units" : "mph",
+        "description" : "",
+        "availableUnits" : [ "m/s", "ft/s", "mph", "knots" ],
+        "DSS Path" : "/USBR/GREEN_SPRING/SPEED-WIND//1HOUR/GRAB2-RAW/",
+        "DSS File Path" : "shared\\USBR_Stanislaus_grab2_DSSv6.dss"
+      }, {
+        "@type" : "ExcelData",
+        "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ "m/s", "ft/s", "mph", "knots" ],
+        "compType" : 2,
+        "worksheetName" : "",
+        "timeColumn" : "",
+        "valueColumn" : "",
+        "topRow" : 0,
+        "bottomRow" : 0
+      } ]
+    } ],
+    "id" : 13,
+    "description" : "",
+    "longitude" : 0.0,
+    "latitude" : 0.0,
+    "nearestMeridian" : 0,
+    "referenceElevation" : 0.0,
+    "observed" : false,
+    "metStation" : true
+  }, {
+    "name" : "Tulloch Met",
+    "active" : true,
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 6528175.583048126, 2146929.787235902 ]
+    },
+    "variables" : [ {
+      "@type" : "AtmosphericPressure",
+      "selectedDataSourceName" : "Constant Value",
+      "dataSources" : [ {
+        "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "units" : "atm",
+        "description" : "",
+        "availableUnits" : [ "mb", "mm-hg", "in-hg", "atm" ],
+        "compType" : 2,
+        "value" : 1.0
+      }, {
+        "@type" : "TableData",
+        "values" : [ ],
+        "dates" : [ ],
+        "name" : "Table Data",
+        "units" : null,
+        "description" : "",
+        "availableUnits" : [ "mb", "mm-hg", "in-hg", "atm" ],
+        "compType" : 2
+      }, {
+        "@type" : "DssData",
+        "compType" : 0,
+        "name" : "DSS",
+        "units" : null,
+        "description" : "",
+        "availableUnits" : [ "mb", "mm-hg", "in-hg", "atm" ],
+        "DSS Path" : "",
+        "DSS File Path" : null
+      }, {
+        "@type" : "ExcelData",
+        "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ "mb", "mm-hg", "in-hg", "atm" ],
+        "compType" : 2,
+        "worksheetName" : "",
+        "timeColumn" : "",
+        "valueColumn" : "",
+        "topRow" : 0,
+        "bottomRow" : 0
+      }, {
+        "@type" : "ElevationData",
+        "name" : "Elevation",
+        "description" : "",
+        "availableUnits" : [ "ft", "m" ],
+        "compType" : 2,
+        "elevation" : 0.0
+      } ]
+    }, {
+      "@type" : "AirTemperature",
+      "selectedDataSourceName" : "DSS",
+      "dataSources" : [ {
+        "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "description" : "",
+        "availableUnits" : [ "deg C", "deg F" ],
+        "compType" : 2,
+        "value" : "-Infinity"
+      }, {
+        "@type" : "TableData",
+        "values" : [ ],
+        "dates" : [ ],
+        "name" : "Table Data",
+        "units" : null,
+        "description" : "",
+        "availableUnits" : [ "deg C", "deg F" ],
+        "compType" : 2
+      }, {
+        "@type" : "DssData",
+        "compType" : 1,
+        "name" : "DSS",
+        "units" : "F",
+        "description" : "",
+        "availableUnits" : [ "deg C", "deg F" ],
+        "DSS Path" : "/USBR/GREEN_SPRING/TEMP-AIR//1HOUR/GRAB2-RAW/",
+        "DSS File Path" : "shared\\USBR_Stanislaus_grab2_DSSv6.dss"
+      }, {
+        "@type" : "ExcelData",
+        "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ "deg C", "deg F" ],
+        "compType" : 2,
+        "worksheetName" : "",
+        "timeColumn" : "",
+        "valueColumn" : "",
+        "topRow" : 0,
+        "bottomRow" : 0
+      } ]
+    }, {
+      "@type" : "Humidity",
+      "selectedDataSourceName" : "DSS",
+      "dataSources" : [ {
+        "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "description" : "",
+        "availableUnits" : [ "Relative Humidity, %", "Dewpt T, deg C", "Dewpt T, deg F", "Wetbulb T, deg C", "Wetbulb T, deg F", "mm-Hg", "in-Hg", "mb", "kPa" ],
+        "compType" : 2,
+        "value" : "-Infinity"
+      }, {
+        "@type" : "TableData",
+        "values" : [ ],
+        "dates" : [ ],
+        "name" : "Table Data",
+        "units" : null,
+        "description" : "",
+        "availableUnits" : [ "Relative Humidity, %", "Dewpt T, deg C", "Dewpt T, deg F", "Wetbulb T, deg C", "Wetbulb T, deg F", "mm-Hg", "in-Hg", "mb", "kPa" ],
+        "compType" : 2
+      }, {
+        "@type" : "DssData",
+        "compType" : 1,
+        "name" : "DSS",
+        "units" : "%",
+        "description" : "",
+        "availableUnits" : [ "Relative Humidity, %", "Dewpt T, deg C", "Dewpt T, deg F", "Wetbulb T, deg C", "Wetbulb T, deg F", "mm-Hg", "in-Hg", "mb", "kPa" ],
+        "DSS Path" : "/USBR/GREEN_SPRING/%-RELHUM//1HOUR/GRAB2-RAW/",
+        "DSS File Path" : "shared\\USBR_Stanislaus_grab2_DSSv6.dss"
+      }, {
+        "@type" : "ExcelData",
+        "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ "Relative Humidity, %", "Dewpt T, deg C", "Dewpt T, deg F", "Wetbulb T, deg C", "Wetbulb T, deg F", "mm-Hg", "in-Hg", "mb", "kPa" ],
+        "compType" : 2,
+        "worksheetName" : "",
+        "timeColumn" : "",
+        "valueColumn" : "",
+        "topRow" : 0,
+        "bottomRow" : 0
+      } ]
+    }, {
+      "@type" : "ShortWaveRadiation",
+      "selectedDataSourceName" : "DSS",
+      "dataSources" : [ {
+        "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "description" : "",
+        "availableUnits" : [ "W/m2", "Cal/cm2/day", "MJ/m2/day" ],
+        "compType" : 2,
+        "value" : "-Infinity"
+      }, {
+        "@type" : "TableData",
+        "values" : [ ],
+        "dates" : [ ],
+        "name" : "Table Data",
+        "units" : null,
+        "description" : "",
+        "availableUnits" : [ "W/m2", "Cal/cm2/day", "MJ/m2/day" ],
+        "compType" : 2
+      }, {
+        "@type" : "DssData",
+        "compType" : 1,
+        "name" : "DSS",
+        "units" : "W/m2",
+        "description" : "",
+        "availableUnits" : [ "W/m2", "Cal/cm2/day", "MJ/m2/day" ],
+        "DSS Path" : "/USBR/GREEN_SPRING_CALC/IRRAD-SOLAR//1HOUR/GRAB2-ZEROLIMIT/",
+        "DSS File Path" : "shared\\USBR_Stanislaus_grab2_DSSv6.dss"
+      }, {
+        "@type" : "ExcelData",
+        "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ "W/m2", "Cal/cm2/day", "MJ/m2/day" ],
+        "compType" : 2,
+        "worksheetName" : "",
+        "timeColumn" : "",
+        "valueColumn" : "",
+        "topRow" : 0,
+        "bottomRow" : 0
+      }, {
+        "@type" : "LatLongData",
+        "nearestMeridian" : 0,
+        "longitude" : 0.0,
+        "latitude" : 0.0,
+        "name" : "Lat-Long",
+        "description" : "",
+        "availableUnits" : [ "W/m2", "Cal/cm2/day", "MJ/m2/day" ],
+        "compType" : 2,
+        "dustCoefficient" : 0.04,
+        "interval" : 60.0
+      } ]
+    }, {
+      "@type" : "Cloudiness",
+      "selectedDataSourceName" : "DSS",
+      "dataSources" : [ {
+        "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "description" : "",
+        "availableUnits" : [ "Fraction, 0-1" ],
+        "compType" : 2,
+        "value" : "-Infinity"
+      }, {
+        "@type" : "TableData",
+        "values" : [ ],
+        "dates" : [ ],
+        "name" : "Table Data",
+        "units" : null,
+        "description" : "",
+        "availableUnits" : [ "Fraction, 0-1" ],
+        "compType" : 2
+      }, {
+        "@type" : "DssData",
+        "compType" : 1,
+        "name" : "DSS",
+        "units" : "n/a",
+        "description" : "",
+        "availableUnits" : [ "Fraction, 0-1" ],
+        "DSS Path" : "/USBR/GREEN_SPRING_CALC-0-1/CLOUD//1DAY/GRAB2-RAW/",
+        "DSS File Path" : "shared\\USBR_Stanislaus_grab2_DSSv6.dss"
+      }, {
+        "@type" : "ExcelData",
+        "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ "Fraction, 0-1" ],
+        "compType" : 2,
+        "worksheetName" : "",
+        "timeColumn" : "",
+        "valueColumn" : "",
+        "topRow" : 0,
+        "bottomRow" : 0
+      }, {
+        "@type" : "ObservedData",
+        "name" : "Compute from ObsSW and Lat-Long",
+        "description" : "",
+        "availableUnits" : [ "Fraction, 0-1" ],
+        "compType" : 2
+      } ]
+    }, {
+      "@type" : "WindSpeed",
+      "selectedDataSourceName" : "DSS",
+      "dataSources" : [ {
+        "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "description" : "",
+        "availableUnits" : [ "m/s", "ft/s", "mph", "knots" ],
+        "compType" : 2,
+        "value" : "-Infinity"
+      }, {
+        "@type" : "TableData",
+        "values" : [ ],
+        "dates" : [ ],
+        "name" : "Table Data",
+        "units" : null,
+        "description" : "",
+        "availableUnits" : [ "m/s", "ft/s", "mph", "knots" ],
+        "compType" : 2
+      }, {
+        "@type" : "DssData",
+        "compType" : 1,
+        "name" : "DSS",
+        "units" : "mph",
+        "description" : "",
+        "availableUnits" : [ "m/s", "ft/s", "mph", "knots" ],
+        "DSS Path" : "/USBR/GREEN_SPRING/SPEED-WIND//1HOUR/GRAB2-RAW/",
+        "DSS File Path" : "shared\\USBR_Stanislaus_grab2_DSSv6.dss"
+      }, {
+        "@type" : "ExcelData",
+        "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ "m/s", "ft/s", "mph", "knots" ],
+        "compType" : 2,
+        "worksheetName" : "",
+        "timeColumn" : "",
+        "valueColumn" : "",
+        "topRow" : 0,
+        "bottomRow" : 0
+      } ]
+    } ],
+    "id" : 14,
+    "description" : "",
+    "longitude" : 0.0,
+    "latitude" : 0.0,
+    "nearestMeridian" : 0,
+    "referenceElevation" : 0.0,
+    "observed" : false,
+    "metStation" : true
+  }, {
+    "name" : "Upper Stanislaus Met",
+    "active" : true,
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 6494046.236300783, 2122454.558492788 ]
+    },
+    "variables" : [ {
+      "@type" : "AtmosphericPressure",
+      "selectedDataSourceName" : "Constant Value",
+      "dataSources" : [ {
+        "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "units" : "atm",
+        "description" : "",
+        "availableUnits" : [ "mb", "mm-hg", "in-hg", "atm" ],
+        "compType" : 2,
+        "value" : 1.0
+      }, {
+        "@type" : "TableData",
+        "values" : [ ],
+        "dates" : [ ],
+        "name" : "Table Data",
+        "units" : null,
+        "description" : "",
+        "availableUnits" : [ "mb", "mm-hg", "in-hg", "atm" ],
+        "compType" : 2
+      }, {
+        "@type" : "DssData",
+        "compType" : 0,
+        "name" : "DSS",
+        "units" : null,
+        "description" : "",
+        "availableUnits" : [ "mb", "mm-hg", "in-hg", "atm" ],
+        "DSS Path" : "",
+        "DSS File Path" : null
+      }, {
+        "@type" : "ExcelData",
+        "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ "mb", "mm-hg", "in-hg", "atm" ],
+        "compType" : 2,
+        "worksheetName" : "",
+        "timeColumn" : "",
+        "valueColumn" : "",
+        "topRow" : 0,
+        "bottomRow" : 0
+      }, {
+        "@type" : "ElevationData",
+        "name" : "Elevation",
+        "description" : "",
+        "availableUnits" : [ "ft", "m" ],
+        "compType" : 2,
+        "elevation" : 0.0
+      } ]
+    }, {
+      "@type" : "AirTemperature",
+      "selectedDataSourceName" : "DSS",
+      "dataSources" : [ {
+        "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "description" : "",
+        "availableUnits" : [ "deg C", "deg F" ],
+        "compType" : 2,
+        "value" : "-Infinity"
+      }, {
+        "@type" : "TableData",
+        "values" : [ ],
+        "dates" : [ ],
+        "name" : "Table Data",
+        "units" : null,
+        "description" : "",
+        "availableUnits" : [ "deg C", "deg F" ],
+        "compType" : 2
+      }, {
+        "@type" : "DssData",
+        "compType" : 1,
+        "name" : "DSS",
+        "units" : "F",
+        "description" : "",
+        "availableUnits" : [ "deg C", "deg F" ],
+        "DSS Path" : "/USBR/GREEN_SPRING_CALC-STAN_R/TEMP-AIR//1HOUR/GRAB2/",
+        "DSS File Path" : "shared\\USBR_Stanislaus_grab2_DSSv6.dss"
+      }, {
+        "@type" : "ExcelData",
+        "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ "deg C", "deg F" ],
+        "compType" : 2,
+        "worksheetName" : "",
+        "timeColumn" : "",
+        "valueColumn" : "",
+        "topRow" : 0,
+        "bottomRow" : 0
+      } ]
+    }, {
+      "@type" : "Humidity",
+      "selectedDataSourceName" : "DSS",
+      "dataSources" : [ {
+        "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "description" : "",
+        "availableUnits" : [ "Relative Humidity, %", "Dewpt T, deg C", "Dewpt T, deg F", "Wetbulb T, deg C", "Wetbulb T, deg F", "mm-Hg", "in-Hg", "mb", "kPa" ],
+        "compType" : 2,
+        "value" : "-Infinity"
+      }, {
+        "@type" : "TableData",
+        "values" : [ ],
+        "dates" : [ ],
+        "name" : "Table Data",
+        "units" : null,
+        "description" : "",
+        "availableUnits" : [ "Relative Humidity, %", "Dewpt T, deg C", "Dewpt T, deg F", "Wetbulb T, deg C", "Wetbulb T, deg F", "mm-Hg", "in-Hg", "mb", "kPa" ],
+        "compType" : 2
+      }, {
+        "@type" : "DssData",
+        "compType" : 1,
+        "name" : "DSS",
+        "units" : "%",
+        "description" : "",
+        "availableUnits" : [ "Relative Humidity, %", "Dewpt T, deg C", "Dewpt T, deg F", "Wetbulb T, deg C", "Wetbulb T, deg F", "mm-Hg", "in-Hg", "mb", "kPa" ],
+        "DSS Path" : "/USBR/GREEN_SPRING_CALC-STAN_R/RELHUM//1HOUR/GRAB2-DERIVED/",
+        "DSS File Path" : "shared\\USBR_Stanislaus_grab2_DSSv6.dss"
+      }, {
+        "@type" : "ExcelData",
+        "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ "Relative Humidity, %", "Dewpt T, deg C", "Dewpt T, deg F", "Wetbulb T, deg C", "Wetbulb T, deg F", "mm-Hg", "in-Hg", "mb", "kPa" ],
+        "compType" : 2,
+        "worksheetName" : "",
+        "timeColumn" : "",
+        "valueColumn" : "",
+        "topRow" : 0,
+        "bottomRow" : 0
+      } ]
+    }, {
+      "@type" : "ShortWaveRadiation",
+      "selectedDataSourceName" : "DSS",
+      "dataSources" : [ {
+        "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "description" : "",
+        "availableUnits" : [ "W/m2", "Cal/cm2/day", "MJ/m2/day" ],
+        "compType" : 2,
+        "value" : "-Infinity"
+      }, {
+        "@type" : "TableData",
+        "values" : [ ],
+        "dates" : [ ],
+        "name" : "Table Data",
+        "units" : null,
+        "description" : "",
+        "availableUnits" : [ "W/m2", "Cal/cm2/day", "MJ/m2/day" ],
+        "compType" : 2
+      }, {
+        "@type" : "DssData",
+        "compType" : 1,
+        "name" : "DSS",
+        "units" : "W/m2",
+        "description" : "",
+        "availableUnits" : [ "W/m2", "Cal/cm2/day", "MJ/m2/day" ],
+        "DSS Path" : "/USBR/GREEN_SPRING_CALC/IRRAD-SOLAR//1HOUR/GRAB2-ZEROLIMIT/",
+        "DSS File Path" : "shared\\USBR_Stanislaus_grab2_DSSv6.dss"
+      }, {
+        "@type" : "ExcelData",
+        "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ "W/m2", "Cal/cm2/day", "MJ/m2/day" ],
+        "compType" : 2,
+        "worksheetName" : "",
+        "timeColumn" : "",
+        "valueColumn" : "",
+        "topRow" : 0,
+        "bottomRow" : 0
+      }, {
+        "@type" : "LatLongData",
+        "nearestMeridian" : 0,
+        "longitude" : 0.0,
+        "latitude" : 0.0,
+        "name" : "Lat-Long",
+        "description" : "",
+        "availableUnits" : [ "W/m2", "Cal/cm2/day", "MJ/m2/day" ],
+        "compType" : 2,
+        "dustCoefficient" : 0.04,
+        "interval" : 60.0
+      } ]
+    }, {
+      "@type" : "Cloudiness",
+      "selectedDataSourceName" : "DSS",
+      "dataSources" : [ {
+        "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "description" : "",
+        "availableUnits" : [ "Fraction, 0-1" ],
+        "compType" : 2,
+        "value" : "-Infinity"
+      }, {
+        "@type" : "TableData",
+        "values" : [ ],
+        "dates" : [ ],
+        "name" : "Table Data",
+        "units" : null,
+        "description" : "",
+        "availableUnits" : [ "Fraction, 0-1" ],
+        "compType" : 2
+      }, {
+        "@type" : "DssData",
+        "compType" : 1,
+        "name" : "DSS",
+        "units" : "n/a",
+        "description" : "",
+        "availableUnits" : [ "Fraction, 0-1" ],
+        "DSS Path" : "/USBR/GREEN_SPRING_CALC-0-1/CLOUD//1DAY/GRAB2-RAW/",
+        "DSS File Path" : "shared\\USBR_Stanislaus_grab2_DSSv6.dss"
+      }, {
+        "@type" : "ExcelData",
+        "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ "Fraction, 0-1" ],
+        "compType" : 2,
+        "worksheetName" : "",
+        "timeColumn" : "",
+        "valueColumn" : "",
+        "topRow" : 0,
+        "bottomRow" : 0
+      }, {
+        "@type" : "ObservedData",
+        "name" : "Compute from ObsSW and Lat-Long",
+        "description" : "",
+        "availableUnits" : [ "Fraction, 0-1" ],
+        "compType" : 2
+      } ]
+    }, {
+      "@type" : "WindSpeed",
+      "selectedDataSourceName" : "DSS",
+      "dataSources" : [ {
+        "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "description" : "",
+        "availableUnits" : [ "m/s", "ft/s", "mph", "knots" ],
+        "compType" : 2,
+        "value" : "-Infinity"
+      }, {
+        "@type" : "TableData",
+        "values" : [ ],
+        "dates" : [ ],
+        "name" : "Table Data",
+        "units" : null,
+        "description" : "",
+        "availableUnits" : [ "m/s", "ft/s", "mph", "knots" ],
+        "compType" : 2
+      }, {
+        "@type" : "DssData",
+        "compType" : 1,
+        "name" : "DSS",
+        "units" : "mph",
+        "description" : "",
+        "availableUnits" : [ "m/s", "ft/s", "mph", "knots" ],
+        "DSS Path" : "/USBR/GREEN_SPRING/SPEED-WIND//1HOUR/GRAB2-RAW/",
+        "DSS File Path" : "shared\\USBR_Stanislaus_grab2_DSSv6.dss"
+      }, {
+        "@type" : "ExcelData",
+        "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ "m/s", "ft/s", "mph", "knots" ],
+        "compType" : 2,
+        "worksheetName" : "",
+        "timeColumn" : "",
+        "valueColumn" : "",
+        "topRow" : 0,
+        "bottomRow" : 0
+      } ]
+    } ],
+    "id" : 15,
+    "description" : "",
+    "longitude" : 0.0,
+    "latitude" : 0.0,
+    "nearestMeridian" : 0,
+    "referenceElevation" : 0.0,
+    "observed" : false,
+    "metStation" : true
+  } ],
+  "dataBlending" : false
+}

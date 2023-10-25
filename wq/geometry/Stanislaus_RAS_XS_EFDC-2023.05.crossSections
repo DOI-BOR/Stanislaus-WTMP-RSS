@@ -1,0 +1,6 @@
+Name=Stanislaus_RAS_XS_EFDC-2023.05
+Description=Cross Sections for RAS Cross Section file Stanislaus_RAS_XS_EFDC-2023.05.shp
+RasFile=rss/ras-exports/Stanislaus_RAS_XS_EFDC-2023.05.shp
+RiverColumn=River
+ReachColumn=Reach
+StationColumn=River Stat

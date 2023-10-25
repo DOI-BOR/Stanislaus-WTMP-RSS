@@ -1,0 +1,25 @@
+TSDataSet Name=alt1
+Description= (TS Data Set)
+
+_type=0
+ParentPath=null
+ParentClass=null
+TSRecord=0
+TSRecord Name=~E1:F
+TSRecord VariableId=14
+TSRecord ParamName=Elev
+TSRecord DssFilename=
+TSRecord DssPathname=///////
+TSRecord InputPosition=0
+TSRecord End=
+
+TSRecord=1
+TSRecord Name=~E8:F
+TSRecord VariableId=14
+TSRecord ParamName=Elev
+TSRecord DssFilename=
+TSRecord DssPathname=///////
+TSRecord InputPosition=0
+TSRecord End=
+
+
