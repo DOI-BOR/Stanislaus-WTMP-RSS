@@ -1,0 +1,214 @@
+TSDataSet Name=RSStanPO-WAT-ResSimPO-Deterministic
+Description=ResSim Stanisalus River Alternative; full hydrodraulics and water quality; setup with timeseries for perscribed/historical simulations. (TS Data Set for WAT-ResSimPO-Deterministic)
+
+_type=0
+ParentPath=null
+ParentClass=null
+TSRecord=0
+TSRecord Name=New Melones Stanislaus R Inflow
+TSRecord VariableId=4
+TSRecord ParamName=Flow
+TSRecord DssFilename=shared/DMS_Stanislaus_ResSim_Pre-Process.dss
+TSRecord DssPathname=/MR Stan.-New Melones/Combined Inflow/Flow//1Hour/ResSim_PreProcess/
+TSRecord InputPosition=0
+TSRecord End=
+
+TSRecord=1
+TSRecord Name=New Melones Balance Flow
+TSRecord VariableId=4
+TSRecord ParamName=Flow
+TSRecord DssFilename=shared/DMS_Stanislaus_ResSim_Pre-Process.dss
+TSRecord DssPathname=/NEW MELONES/BALANCE FLOW/FLOW//1Day/DERIVED/
+TSRecord InputPosition=0
+TSRecord End=
+
+TSRecord=2
+TSRecord Name=Tulloch Balance Flow
+TSRecord VariableId=4
+TSRecord ParamName=Flow
+TSRecord DssFilename=shared/DMS_Stanislaus_ResSim_Pre-Process.dss
+TSRecord DssPathname=/TULLOCH/BALANCE FLOW/FLOW//1Day/DERIVED/
+TSRecord InputPosition=0
+TSRecord End=
+
+TSRecord=3
+TSRecord Name=Stanislaus R at Orange Blossom Bridge Balance Flow
+TSRecord VariableId=4
+TSRecord ParamName=Flow
+TSRecord DssFilename=shared/DMS_Stanislaus_ResSim_Pre-Process.dss
+TSRecord DssPathname=//ZEROS/flow//1Day/ZEROS/
+TSRecord InputPosition=0
+TSRecord End=
+
+TSRecord=4
+TSRecord Name=Stanislaus R at Ripon Balance Flow
+TSRecord VariableId=4
+TSRecord ParamName=Flow
+TSRecord DssFilename=shared/DMS_Stanislaus_ResSim_Pre-Process.dss
+TSRecord DssPathname=//ZEROS/flow//1Day/ZEROS/
+TSRecord InputPosition=0
+TSRecord End=
+
+TSRecord=5
+TSRecord Name=Goodwin Flow Balance
+TSRecord VariableId=4
+TSRecord ParamName=Flow
+TSRecord DssFilename=shared/DMS_Stanislaus_ResSim_Pre-Process.dss
+TSRecord DssPathname=/MR Stan.-Goodwin/Goodwin Dam Balance Flow/Flow//1Hour/ResSim_PreProcess/
+TSRecord InputPosition=0
+TSRecord End=
+
+TSRecord=6
+TSRecord Name=Below Goodwin Dam Balance Flow
+TSRecord VariableId=4
+TSRecord ParamName=Flow
+TSRecord DssFilename=shared/DMS_Stanislaus_ResSim_Pre-Process.dss
+TSRecord DssPathname=//ZEROS/flow//1Day/ZEROS/
+TSRecord InputPosition=0
+TSRecord End=
+
+TSRecord=7
+TSRecord Name=~E1:F
+TSRecord VariableId=14
+TSRecord ParamName=Elev
+TSRecord DssFilename=shared/DMS_StanislausHydroTS.dss
+TSRecord DssPathname=/MR Stan.-New Melones/NML-Elevation/Elev//1Hour/240.1.145.1.1/
+TSRecord InputPosition=0
+TSRecord End=
+
+TSRecord=8
+TSRecord Name=~E23:F
+TSRecord VariableId=41
+TSRecord ParamName=Flow-RELEASE
+TSRecord DssFilename=shared/DMS_StanislausHydroTS.dss
+TSRecord DssPathname=/MR Stan.-New Melones/NML-Generation Release/Flow//1Hour/ResSim_PreProcess/
+TSRecord InputPosition=0
+TSRecord End=
+
+TSRecord=9
+TSRecord Name=~E24:F
+TSRecord VariableId=41
+TSRecord ParamName=Flow-RELEASE
+TSRecord DssFilename=shared/DMS_StanislausHydroTS.dss
+TSRecord DssPathname=/MR Stan.-New Melones/NML-Outlet Release/Flow//1Hour/240.1.125.3.1/
+TSRecord InputPosition=0
+TSRecord End=
+
+TSRecord=10
+TSRecord Name=New Melones Power Release
+TSRecord VariableId=85
+TSRecord ParamName=
+TSRecord DssFilename=shared/DMS_StanislausHydroTS.dss
+TSRecord DssPathname=/MR Stan.-New Melones/NML-Generation Release/Flow//1Hour/ResSim_PreProcess/
+TSRecord InputPosition=0
+TSRecord End=
+
+TSRecord=11
+TSRecord Name=New Melones River Outlet Release
+TSRecord VariableId=85
+TSRecord ParamName=
+TSRecord DssFilename=shared/DMS_StanislausHydroTS.dss
+TSRecord DssPathname=/MR Stan.-New Melones/NML-Outlet Release/Flow//1Hour/240.1.125.3.1/
+TSRecord InputPosition=0
+TSRecord End=
+
+TSRecord=12
+TSRecord Name=~E8:F
+TSRecord VariableId=14
+TSRecord ParamName=Elev
+TSRecord DssFilename=shared/DMS_Stanislaus_ResSim_Pre-Process.dss
+TSRecord DssPathname=/MR Stan.-Tulloch/TUL-Reservoir Elevation/Elev//1Hour/241.1.145.1.1/
+TSRecord InputPosition=0
+TSRecord End=
+
+TSRecord=13
+TSRecord Name=~E25:F
+TSRecord VariableId=41
+TSRecord ParamName=Flow-RELEASE
+TSRecord DssFilename=shared/DMS_Stanislaus_ResSim_Pre-Process.dss
+TSRecord DssPathname=/MR Stan.-Tulloch/TUL-Spillway Release/Flow//1Hour/241.1.125.3.1/
+TSRecord InputPosition=0
+TSRecord End=
+
+TSRecord=14
+TSRecord Name=~E26:F
+TSRecord VariableId=41
+TSRecord ParamName=Flow-RELEASE
+TSRecord DssFilename=shared/DMS_Stanislaus_ResSim_Pre-Process.dss
+TSRecord DssPathname=/MR Stan.-Tulloch/TUL-Generation Release/Flow//1Hour/241.1.125.2.1/
+TSRecord InputPosition=0
+TSRecord End=
+
+TSRecord=15
+TSRecord Name=~E27:F
+TSRecord VariableId=41
+TSRecord ParamName=Flow-RELEASE
+TSRecord DssFilename=shared/DMS_Stanislaus_ResSim_Pre-Process.dss
+TSRecord DssPathname=/MR Stan.-Tulloch/TUL-Ctrl Regulating Flow/Flow//1Hour/241.1.125.4.1/
+TSRecord InputPosition=0
+TSRecord End=
+
+TSRecord=16
+TSRecord Name=Tulloch Spillway Release
+TSRecord VariableId=85
+TSRecord ParamName=
+TSRecord DssFilename=shared/DMS_Stanislaus_ResSim_Pre-Process.dss
+TSRecord DssPathname=/MR Stan.-Tulloch/TUL-Spillway Release/Flow//1Hour/241.1.125.3.1/
+TSRecord InputPosition=0
+TSRecord End=
+
+TSRecord=17
+TSRecord Name=Tulloch Power Release
+TSRecord VariableId=85
+TSRecord ParamName=
+TSRecord DssFilename=shared/DMS_Stanislaus_ResSim_Pre-Process.dss
+TSRecord DssPathname=/MR Stan.-Tulloch/TUL-Generation Release/Flow//1Hour/241.1.125.2.1/
+TSRecord InputPosition=0
+TSRecord End=
+
+TSRecord=18
+TSRecord Name=Tulloch River Outlet Release
+TSRecord VariableId=85
+TSRecord ParamName=
+TSRecord DssFilename=shared/DMS_Stanislaus_ResSim_Pre-Process.dss
+TSRecord DssPathname=/MR Stan.-Tulloch/TUL-Ctrl Regulating Flow/Flow//1Hour/241.1.125.4.1/
+TSRecord InputPosition=0
+TSRecord End=
+
+TSRecord=19
+TSRecord Name=~E17:F
+TSRecord VariableId=43
+TSRecord ParamName=Flow-DIVERSION
+TSRecord DssFilename=shared/DMS_Stanislaus_ResSim_Pre-Process.dss
+TSRecord DssPathname=/MR Stan.-Goodwin/GDW-Joint Canal Diversion/Flow//1Hour/242.1.125.6.1/
+TSRecord InputPosition=0
+TSRecord End=
+
+TSRecord=20
+TSRecord Name=Oakdale Canal
+TSRecord VariableId=85
+TSRecord ParamName=
+TSRecord DssFilename=shared/DMS_Stanislaus_ResSim_Pre-Process.dss
+TSRecord DssPathname=/MR Stan.-Goodwin/GDW-Joint Canal Diversion/Flow//1Hour/242.1.125.6.1/
+TSRecord InputPosition=0
+TSRecord End=
+
+TSRecord=21
+TSRecord Name=~E42:F
+TSRecord VariableId=43
+TSRecord ParamName=Flow-DIVERSION
+TSRecord DssFilename=shared/DMS_Stanislaus_ResSim_Pre-Process.dss
+TSRecord DssPathname=/MR Stan.-Goodwin/GDW-South Canal Diversion/Flow//1Hour/242.1.125.5.1/
+TSRecord InputPosition=0
+TSRecord End=
+
+TSRecord=22
+TSRecord Name=South San Joaquin Canal
+TSRecord VariableId=85
+TSRecord ParamName=
+TSRecord DssFilename=shared/DMS_Stanislaus_ResSim_Pre-Process.dss
+TSRecord DssPathname=/MR Stan.-Goodwin/GDW-South Canal Diversion/Flow//1Hour/242.1.125.5.1/
+TSRecord InputPosition=0
+TSRecord End=
+
+
