@@ -1,7 +1,7 @@
 RssAlt Name=Flow_01
 RssAlt Description=Flow model for Stanislaus River
 Version=1001
-ModifiedTime=1684527381683
+ModifiedTime=1699986890754
 NetworkID=1
 System Path=rss/2Reservoirs.rsys
 Operations Path=
@@ -113,6 +113,8 @@ TimeIncrement=2
 ObservedTSData Path=rss/Flow_01Obs.fits
 resOpSelection=7,0
 resOpSelection=0,0
+divOpSelection=41,0
+divOpSelection=16,0
 ReplaceAllReleaseOverrides=false
 UseDiffAltResultsTableBegin
 UseDiffAltResultsTableEnd
@@ -120,6 +122,20 @@ DssOutputDataBegin
 WriteAllDssOutput;true
 WriteAllInputDss;true
 DssOutputDataEnd
+Hindcast=~E1:F;14;1;-Infinity
+Hindcast=~E1:F;15;2;-Infinity
+Hindcast=~E23:F;41;1;-Infinity
+Hindcast=~E24:F;41;1;-Infinity
+Hindcast=~E43:F;96;1;-Infinity
+Hindcast=~E8:F;14;1;-Infinity
+Hindcast=~E8:F;15;2;-Infinity
+Hindcast=~E25:F;41;1;-Infinity
+Hindcast=~E26:F;41;1;-Infinity
+Hindcast=~E27:F;41;1;-Infinity
+Hindcast=~E17:F;43;1;-Infinity
+Hindcast=~E42:F;43;1;-Infinity
+Hindcast=~S0;98;1;-Infinity
+Hindcast=~S1;98;1;-Infinity
 UsingInflowFactors=false
 InflowFactorType=0
 GlobalInflowFactor=1.0

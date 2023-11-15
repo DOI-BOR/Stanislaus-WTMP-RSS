@@ -2,13 +2,9 @@
   "index" : 3113,
   "name" : "Stanislaus_Full",
   "description" : "",
-  "Description" : "",
-  "Index" : 3113,
-  "Name" : "Stanislaus_Full",
   "crossSectionManagerId" : 3109,
   "lastModifiedTime" : 1684530105765,
   "networkId" : 1,
-  "ressimVersion" : "CWMS3.2.1-04/24/2020",
   "rssWqGeometry" : {
     "@type" : "RssWQGeometry",
     "id" : 3113,

@@ -1,5 +1,5 @@
 TSDataSet Name=Flow-Temp-ResSim only-Deterministic
-Description= (TS Data Set for ResSim only-Deterministic)
+Description=(TS Data Set for ResSim only-Deterministic)
 
 _type=0
 ParentPath=null

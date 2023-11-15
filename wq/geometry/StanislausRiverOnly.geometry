@@ -2,13 +2,9 @@
   "index" : 3151,
   "name" : "StanislausRiverOnly",
   "description" : "",
-  "Description" : "",
-  "Index" : 3151,
-  "Name" : "StanislausRiverOnly",
   "crossSectionManagerId" : 3109,
   "lastModifiedTime" : 1684521935141,
   "networkId" : 1,
-  "ressimVersion" : "CWMS3.2.1-04/24/2020",
   "rssWqGeometry" : {
     "@type" : "RssWQGeometry",
     "id" : 3151,
