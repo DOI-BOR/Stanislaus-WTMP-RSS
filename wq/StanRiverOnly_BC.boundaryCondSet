@@ -7,8 +7,7 @@
   "Name" : "StanRiverOnly_BC",
   "constituentSetId" : 94,
   "geometryId" : 3151,
-  "lastModifiedTime" : 1684180054131,
-  "ressimVersion" : "CWMS3.2.1-04/24/2020",
+  "lastModifiedTime" : 1701373027677,
   "set" : {
     "boundaryConditions" : [ {
       "@type" : "WQBoundaryCondition",
@@ -23,52 +22,54 @@
       "constituentId" : 1,
       "dataSources" : [ {
         "@type" : "TableData",
+        "name" : "Table Data",
+        "description" : "",
         "availableUnits" : [ ],
         "compType" : 2,
         "dates" : [ ],
-        "description" : "",
-        "name" : "Table Data",
         "values" : [ ]
       }, {
         "@type" : "DssData",
-        "DSS Path" : "",
+        "name" : "DSS",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 0,
-        "description" : "",
-        "name" : "DSS"
+        "DSS Path" : "",
+        "Interpreted Units" : "",
+        "interpretedUnits" : ""
       }, {
         "@type" : "ExcelData",
-        "availableUnits" : [ ],
-        "bottomRow" : 0,
-        "compType" : 2,
-        "description" : "",
         "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ ],
+        "compType" : 2,
+        "bottomRow" : 0,
         "timeColumn" : "",
         "topRow" : 0,
         "valueColumn" : "",
         "worksheetName" : ""
       }, {
         "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Constant Value",
         "value" : "-Infinity"
       }, {
         "@type" : "AmbientData",
-        "OptionType" : "AVERAGE_AT_JUNCTION",
+        "name" : "Ambient Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Ambient Value"
+        "OptionType" : "AVERAGE_AT_JUNCTION"
       } ],
       "selectedDataSource" : {
         "@type" : "AmbientData",
-        "OptionType" : "AVERAGE_AT_JUNCTION",
+        "name" : "Ambient Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Ambient Value"
+        "OptionType" : "AVERAGE_AT_JUNCTION"
       },
       "units" : [ "\u00B0C" ]
     }, {
@@ -84,52 +85,55 @@
       "constituentId" : 1,
       "dataSources" : [ {
         "@type" : "TableData",
+        "name" : "Table Data",
+        "description" : "",
         "availableUnits" : [ ],
         "compType" : 2,
         "dates" : [ ],
-        "description" : "",
-        "name" : "Table Data",
         "values" : [ ]
       }, {
         "@type" : "DssData",
-        "DSS Path" : "",
-        "availableUnits" : [ "\u00B0C" ],
-        "compType" : 0,
+        "name" : "DSS",
         "description" : "",
-        "name" : "DSS"
+        "units" : "",
+        "availableUnits" : [ "\u00B0C" ],
+        "compType" : 1,
+        "DSS Path" : "///////",
+        "Interpreted Units" : "\u00B0C",
+        "interpretedUnits" : "\u00B0C"
       }, {
         "@type" : "ExcelData",
-        "availableUnits" : [ ],
-        "bottomRow" : 0,
-        "compType" : 2,
-        "description" : "",
         "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ ],
+        "compType" : 2,
+        "bottomRow" : 0,
         "timeColumn" : "",
         "topRow" : 0,
         "valueColumn" : "",
         "worksheetName" : ""
       }, {
         "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Constant Value",
         "value" : "-Infinity"
       }, {
         "@type" : "AmbientData",
-        "OptionType" : "AVERAGE_AT_JUNCTION",
+        "name" : "Ambient Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Ambient Value"
+        "OptionType" : "AVERAGE_AT_JUNCTION"
       } ],
       "selectedDataSource" : {
         "@type" : "AmbientData",
-        "OptionType" : "AVERAGE_AT_JUNCTION",
+        "name" : "Ambient Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Ambient Value"
+        "OptionType" : "AVERAGE_AT_JUNCTION"
       },
       "units" : [ "\u00B0C" ]
     }, {
@@ -145,52 +149,54 @@
       "constituentId" : 1,
       "dataSources" : [ {
         "@type" : "TableData",
+        "name" : "Table Data",
+        "description" : "",
         "availableUnits" : [ ],
         "compType" : 2,
         "dates" : [ ],
-        "description" : "",
-        "name" : "Table Data",
         "values" : [ ]
       }, {
         "@type" : "DssData",
-        "DSS Path" : "",
+        "name" : "DSS",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 0,
-        "description" : "",
-        "name" : "DSS"
+        "DSS Path" : "",
+        "Interpreted Units" : "",
+        "interpretedUnits" : ""
       }, {
         "@type" : "ExcelData",
-        "availableUnits" : [ ],
-        "bottomRow" : 0,
-        "compType" : 2,
-        "description" : "",
         "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ ],
+        "compType" : 2,
+        "bottomRow" : 0,
         "timeColumn" : "",
         "topRow" : 0,
         "valueColumn" : "",
         "worksheetName" : ""
       }, {
         "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Constant Value",
         "value" : "-Infinity"
       }, {
         "@type" : "AmbientData",
-        "OptionType" : "AVERAGE_AT_JUNCTION",
+        "name" : "Ambient Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Ambient Value"
+        "OptionType" : "AVERAGE_AT_JUNCTION"
       } ],
       "selectedDataSource" : {
         "@type" : "AmbientData",
-        "OptionType" : "AVERAGE_AT_JUNCTION",
+        "name" : "Ambient Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Ambient Value"
+        "OptionType" : "AVERAGE_AT_JUNCTION"
       },
       "units" : [ "\u00B0C" ]
     }, {
@@ -206,52 +212,54 @@
       "constituentId" : 1,
       "dataSources" : [ {
         "@type" : "TableData",
+        "name" : "Table Data",
+        "description" : "",
         "availableUnits" : [ ],
         "compType" : 2,
         "dates" : [ ],
-        "description" : "",
-        "name" : "Table Data",
         "values" : [ ]
       }, {
         "@type" : "DssData",
-        "DSS Path" : "",
+        "name" : "DSS",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 0,
-        "description" : "",
-        "name" : "DSS"
+        "DSS Path" : "",
+        "Interpreted Units" : "",
+        "interpretedUnits" : ""
       }, {
         "@type" : "ExcelData",
-        "availableUnits" : [ ],
-        "bottomRow" : 0,
-        "compType" : 2,
-        "description" : "",
         "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ ],
+        "compType" : 2,
+        "bottomRow" : 0,
         "timeColumn" : "",
         "topRow" : 0,
         "valueColumn" : "",
         "worksheetName" : ""
       }, {
         "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Constant Value",
         "value" : "-Infinity"
       }, {
         "@type" : "AmbientData",
-        "OptionType" : "AVERAGE_AT_JUNCTION",
+        "name" : "Ambient Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Ambient Value"
+        "OptionType" : "AVERAGE_AT_JUNCTION"
       } ],
       "selectedDataSource" : {
         "@type" : "AmbientData",
-        "OptionType" : "AVERAGE_AT_JUNCTION",
+        "name" : "Ambient Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Ambient Value"
+        "OptionType" : "AVERAGE_AT_JUNCTION"
       },
       "units" : [ "\u00B0C" ]
     }, {
@@ -267,56 +275,60 @@
       "constituentId" : 1,
       "dataSources" : [ {
         "@type" : "TableData",
+        "name" : "Table Data",
+        "description" : "",
         "availableUnits" : [ ],
         "compType" : 2,
         "dates" : [ ],
-        "description" : "",
-        "name" : "Table Data",
         "values" : [ ]
       }, {
         "@type" : "DssData",
-        "DSS File Path" : "shared\\Stanislaus_Observed_DSSv6.dss",
-        "DSS Path" : "/CDEC/TDP_TULLOCH_POWERHOUSE_TAILRACE/TEMP-WATER//1HOUR/CDEC-EDIT-INTERP/",
+        "name" : "DSS",
+        "description" : "",
+        "units" : "C",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "DSS",
-        "units" : "F"
+        "DSS File Path" : "shared\\Stanislaus_Observed_DSSv6.dss",
+        "DSS Path" : "/CDEC/TDP_TULLOCH_POWERHOUSE_TAILRACE/TEMP-WATER//1HOUR/CDEC-EDIT-INTERP-C/",
+        "Interpreted Units" : "\u00B0C",
+        "interpretedUnits" : "\u00B0C"
       }, {
         "@type" : "ExcelData",
-        "availableUnits" : [ ],
-        "bottomRow" : 0,
-        "compType" : 2,
-        "description" : "",
         "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ ],
+        "compType" : 2,
+        "bottomRow" : 0,
         "timeColumn" : "",
         "topRow" : 0,
         "valueColumn" : "",
         "worksheetName" : ""
       }, {
         "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Constant Value",
         "value" : "-Infinity"
       }, {
         "@type" : "AmbientData",
-        "OptionType" : "AVERAGE_AT_JUNCTION",
+        "name" : "Ambient Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Ambient Value"
+        "OptionType" : "AVERAGE_AT_JUNCTION"
       } ],
       "selectedDataSource" : {
         "@type" : "DssData",
-        "DSS File Path" : "shared\\Stanislaus_Observed_DSSv6.dss",
-        "DSS Path" : "/CDEC/TDP_TULLOCH_POWERHOUSE_TAILRACE/TEMP-WATER//1HOUR/CDEC-EDIT-INTERP/",
+        "name" : "DSS",
+        "description" : "",
+        "units" : "C",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "DSS",
-        "units" : "F"
+        "DSS File Path" : "shared\\Stanislaus_Observed_DSSv6.dss",
+        "DSS Path" : "/CDEC/TDP_TULLOCH_POWERHOUSE_TAILRACE/TEMP-WATER//1HOUR/CDEC-EDIT-INTERP-C/",
+        "Interpreted Units" : "\u00B0C",
+        "interpretedUnits" : "\u00B0C"
       },
       "units" : [ "\u00B0C" ]
     } ],

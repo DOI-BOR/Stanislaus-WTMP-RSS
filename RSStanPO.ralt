@@ -1,13 +1,13 @@
 RssAlt Name=RSStanPO
 RssAlt Description=ResSim Stanisalus River Alternative; full hydrodraulics and water quality; setup with timeseries for perscribed/historical simulations.
 Version=1001
-ModifiedTime=1699914627605
+ModifiedTime=1701372426167
 NetworkID=1
 System Path=rss/2Reservoirs.rsys
 Operations Path=
 InputTSData Path=rss/RSStanPO.fits
 OutputTSData Path=
-InputGVData Path=
+InputGVData Path=rss/RSStanPO.igv
 InputWQTSDataPath Path=
 OutputVerticalDatum=AS_DEFINED
 FlowComputeType=1

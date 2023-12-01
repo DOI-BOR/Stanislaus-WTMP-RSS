@@ -1,5 +1,5 @@
-TSDataSet Name=RSStanPO-WAT-ResSimPO-Deterministic
-Description=ResSim Stanisalus River Alternative; full hydrodraulics and water quality; setup with timeseries for perscribed/historical simulations. (TS Data Set for WAT-ResSimPO-Deterministic)
+TSDataSet Name=RSStanRiv-WAT-W2-2Res-Riv-Deterministic
+Description=ResSim Stanisalus River Alternative; full hydrodraulics; water quality domain is limited to the Stanidsalus River below Tulloch. (TS Data Set for WAT-W2-2Res-Riv-Deterministic)
 
 _type=0
 ParentPath=null
@@ -185,11 +185,11 @@ TSRecord InputPosition=0
 TSRecord End=
 
 TSRecord=21
-TSRecord Name=Stanislaus R at New Melones - New Melones Stanislaus R Inflow
+TSRecord Name=Stanislaus R at Tulloch Dam
 TSRecord VariableId=2001
 TSRecord ParamName=Water Temperature
-TSRecord DssFilename=shared/DMS_StanislausHydroTS.dss
-TSRecord DssPathname=/MR Stan.-New Melones/NM_Inflow-Inflow Calc. WTemp/Temp-Water//1Hour/240.8.50.1.1/
+TSRecord DssFilename=shared/Stanislaus_Observed_DSSv6.dss
+TSRecord DssPathname=/W2:two_63.csv/Seg 63 Withdrawal/Temp-TWO//1HOUR/W2 NM-TUL :2005:CeQualW2-W2 Tulloch Prescribed/
 TSRecord InputPosition=0
 TSRecord End=
 

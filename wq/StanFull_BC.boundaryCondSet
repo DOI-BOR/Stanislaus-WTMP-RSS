@@ -7,8 +7,7 @@
   "Name" : "StanFull_BC",
   "constituentSetId" : 94,
   "geometryId" : 3113,
-  "lastModifiedTime" : 1684176707307,
-  "ressimVersion" : "CWMS3.2.1-04/24/2020",
+  "lastModifiedTime" : 1701372426167,
   "set" : {
     "boundaryConditions" : [ {
       "@type" : "WQBoundaryCondition",
@@ -23,52 +22,54 @@
       "constituentId" : 1,
       "dataSources" : [ {
         "@type" : "TableData",
+        "name" : "Table Data",
+        "description" : "",
         "availableUnits" : [ ],
         "compType" : 2,
         "dates" : [ ],
-        "description" : "",
-        "name" : "Table Data",
         "values" : [ ]
       }, {
         "@type" : "DssData",
-        "DSS Path" : "",
+        "name" : "DSS",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 0,
-        "description" : "",
-        "name" : "DSS"
+        "DSS Path" : "",
+        "Interpreted Units" : "",
+        "interpretedUnits" : ""
       }, {
         "@type" : "ExcelData",
-        "availableUnits" : [ ],
-        "bottomRow" : 0,
-        "compType" : 2,
-        "description" : "",
         "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ ],
+        "compType" : 2,
+        "bottomRow" : 0,
         "timeColumn" : "",
         "topRow" : 0,
         "valueColumn" : "",
         "worksheetName" : ""
       }, {
         "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Constant Value",
         "value" : "-Infinity"
       }, {
         "@type" : "AmbientData",
-        "OptionType" : "AVERAGE_AT_JUNCTION",
+        "name" : "Ambient Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Ambient Value"
+        "OptionType" : "AVERAGE_AT_JUNCTION"
       } ],
       "selectedDataSource" : {
         "@type" : "AmbientData",
-        "OptionType" : "AVERAGE_AT_JUNCTION",
+        "name" : "Ambient Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Ambient Value"
+        "OptionType" : "AVERAGE_AT_JUNCTION"
       },
       "units" : [ "\u00B0C" ]
     }, {
@@ -84,56 +85,60 @@
       "constituentId" : 1,
       "dataSources" : [ {
         "@type" : "TableData",
+        "name" : "Table Data",
+        "description" : "",
         "availableUnits" : [ ],
         "compType" : 2,
         "dates" : [ ],
-        "description" : "",
-        "name" : "Table Data",
         "values" : [ ]
       }, {
         "@type" : "DssData",
-        "DSS File Path" : "shared\\USBR_Stanislaus_grab2_DSSv6.dss",
-        "DSS Path" : "/USBR/NEW_MELONES_PH_NF_MF_FLOW_WEIGHTED/TEMP-WATER//1HOUR/GRAB2-DERIVED-2014-INTERP/",
-        "availableUnits" : [ "\u00B0C" ],
-        "compType" : 1,
-        "description" : "",
         "name" : "DSS",
-        "units" : "F"
+        "description" : "",
+        "units" : "C",
+        "availableUnits" : [ "\u00B0C" ],
+        "compType" : 2,
+        "DSS File Path" : "shared\\DMS_StanislausHydroTS.dss",
+        "DSS Path" : "/MR Stan.-New Melones/NM_Inflow-Inflow Calc. WTemp/Temp-Water//1Hour/240.8.50.1.1/",
+        "Interpreted Units" : "\u00B0C",
+        "interpretedUnits" : "\u00B0C"
       }, {
         "@type" : "ExcelData",
-        "availableUnits" : [ ],
-        "bottomRow" : 0,
-        "compType" : 2,
-        "description" : "",
         "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ ],
+        "compType" : 2,
+        "bottomRow" : 0,
         "timeColumn" : "",
         "topRow" : 0,
         "valueColumn" : "",
         "worksheetName" : ""
       }, {
         "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Constant Value",
         "value" : "-Infinity"
       }, {
         "@type" : "AmbientData",
-        "OptionType" : "AVERAGE_AT_JUNCTION",
+        "name" : "Ambient Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Ambient Value"
+        "OptionType" : "AVERAGE_AT_JUNCTION"
       } ],
       "selectedDataSource" : {
         "@type" : "DssData",
-        "DSS File Path" : "shared\\USBR_Stanislaus_grab2_DSSv6.dss",
-        "DSS Path" : "/USBR/NEW_MELONES_PH_NF_MF_FLOW_WEIGHTED/TEMP-WATER//1HOUR/GRAB2-DERIVED-2014-INTERP/",
-        "availableUnits" : [ "\u00B0C" ],
-        "compType" : 1,
-        "description" : "",
         "name" : "DSS",
-        "units" : "F"
+        "description" : "",
+        "units" : "C",
+        "availableUnits" : [ "\u00B0C" ],
+        "compType" : 2,
+        "DSS File Path" : "shared\\DMS_StanislausHydroTS.dss",
+        "DSS Path" : "/MR Stan.-New Melones/NM_Inflow-Inflow Calc. WTemp/Temp-Water//1Hour/240.8.50.1.1/",
+        "Interpreted Units" : "\u00B0C",
+        "interpretedUnits" : "\u00B0C"
       },
       "units" : [ "\u00B0C" ]
     }, {
@@ -149,52 +154,54 @@
       "constituentId" : 1,
       "dataSources" : [ {
         "@type" : "TableData",
+        "name" : "Table Data",
+        "description" : "",
         "availableUnits" : [ ],
         "compType" : 2,
         "dates" : [ ],
-        "description" : "",
-        "name" : "Table Data",
         "values" : [ ]
       }, {
         "@type" : "DssData",
-        "DSS Path" : "",
+        "name" : "DSS",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 0,
-        "description" : "",
-        "name" : "DSS"
+        "DSS Path" : "",
+        "Interpreted Units" : "",
+        "interpretedUnits" : ""
       }, {
         "@type" : "ExcelData",
-        "availableUnits" : [ ],
-        "bottomRow" : 0,
-        "compType" : 2,
-        "description" : "",
         "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ ],
+        "compType" : 2,
+        "bottomRow" : 0,
         "timeColumn" : "",
         "topRow" : 0,
         "valueColumn" : "",
         "worksheetName" : ""
       }, {
         "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Constant Value",
         "value" : "-Infinity"
       }, {
         "@type" : "AmbientData",
-        "OptionType" : "AVERAGE_RECIEVING_WATER",
+        "name" : "Ambient Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Ambient Value"
+        "OptionType" : "AVERAGE_RECIEVING_WATER"
       } ],
       "selectedDataSource" : {
         "@type" : "AmbientData",
-        "OptionType" : "AVERAGE_RECIEVING_WATER",
+        "name" : "Ambient Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Ambient Value"
+        "OptionType" : "AVERAGE_RECIEVING_WATER"
       },
       "units" : [ "\u00B0C" ]
     }, {
@@ -210,52 +217,54 @@
       "constituentId" : 1,
       "dataSources" : [ {
         "@type" : "TableData",
+        "name" : "Table Data",
+        "description" : "",
         "availableUnits" : [ ],
         "compType" : 2,
         "dates" : [ ],
-        "description" : "",
-        "name" : "Table Data",
         "values" : [ ]
       }, {
         "@type" : "DssData",
-        "DSS Path" : "",
+        "name" : "DSS",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 0,
-        "description" : "",
-        "name" : "DSS"
+        "DSS Path" : "",
+        "Interpreted Units" : "",
+        "interpretedUnits" : ""
       }, {
         "@type" : "ExcelData",
-        "availableUnits" : [ ],
-        "bottomRow" : 0,
-        "compType" : 2,
-        "description" : "",
         "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ ],
+        "compType" : 2,
+        "bottomRow" : 0,
         "timeColumn" : "",
         "topRow" : 0,
         "valueColumn" : "",
         "worksheetName" : ""
       }, {
         "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Constant Value",
         "value" : "-Infinity"
       }, {
         "@type" : "AmbientData",
-        "OptionType" : "AVERAGE_RECIEVING_WATER",
+        "name" : "Ambient Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Ambient Value"
+        "OptionType" : "AVERAGE_RECIEVING_WATER"
       } ],
       "selectedDataSource" : {
         "@type" : "AmbientData",
-        "OptionType" : "AVERAGE_RECIEVING_WATER",
+        "name" : "Ambient Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Ambient Value"
+        "OptionType" : "AVERAGE_RECIEVING_WATER"
       },
       "units" : [ "\u00B0C" ]
     }, {
@@ -271,52 +280,54 @@
       "constituentId" : 1,
       "dataSources" : [ {
         "@type" : "TableData",
+        "name" : "Table Data",
+        "description" : "",
         "availableUnits" : [ ],
         "compType" : 2,
         "dates" : [ ],
-        "description" : "",
-        "name" : "Table Data",
         "values" : [ ]
       }, {
         "@type" : "DssData",
-        "DSS Path" : "",
+        "name" : "DSS",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 0,
-        "description" : "",
-        "name" : "DSS"
+        "DSS Path" : "",
+        "Interpreted Units" : "",
+        "interpretedUnits" : ""
       }, {
         "@type" : "ExcelData",
-        "availableUnits" : [ ],
-        "bottomRow" : 0,
-        "compType" : 2,
-        "description" : "",
         "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ ],
+        "compType" : 2,
+        "bottomRow" : 0,
         "timeColumn" : "",
         "topRow" : 0,
         "valueColumn" : "",
         "worksheetName" : ""
       }, {
         "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Constant Value",
         "value" : "-Infinity"
       }, {
         "@type" : "AmbientData",
-        "OptionType" : "AVERAGE_AT_JUNCTION",
+        "name" : "Ambient Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Ambient Value"
+        "OptionType" : "AVERAGE_AT_JUNCTION"
       } ],
       "selectedDataSource" : {
         "@type" : "AmbientData",
-        "OptionType" : "AVERAGE_AT_JUNCTION",
+        "name" : "Ambient Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Ambient Value"
+        "OptionType" : "AVERAGE_AT_JUNCTION"
       },
       "units" : [ "\u00B0C" ]
     }, {
@@ -332,52 +343,54 @@
       "constituentId" : 1,
       "dataSources" : [ {
         "@type" : "TableData",
+        "name" : "Table Data",
+        "description" : "",
         "availableUnits" : [ ],
         "compType" : 2,
         "dates" : [ ],
-        "description" : "",
-        "name" : "Table Data",
         "values" : [ ]
       }, {
         "@type" : "DssData",
-        "DSS Path" : "",
+        "name" : "DSS",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 0,
-        "description" : "",
-        "name" : "DSS"
+        "DSS Path" : "",
+        "Interpreted Units" : "",
+        "interpretedUnits" : ""
       }, {
         "@type" : "ExcelData",
-        "availableUnits" : [ ],
-        "bottomRow" : 0,
-        "compType" : 2,
-        "description" : "",
         "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ ],
+        "compType" : 2,
+        "bottomRow" : 0,
         "timeColumn" : "",
         "topRow" : 0,
         "valueColumn" : "",
         "worksheetName" : ""
       }, {
         "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Constant Value",
         "value" : "-Infinity"
       }, {
         "@type" : "AmbientData",
-        "OptionType" : "AVERAGE_AT_JUNCTION",
+        "name" : "Ambient Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Ambient Value"
+        "OptionType" : "AVERAGE_AT_JUNCTION"
       } ],
       "selectedDataSource" : {
         "@type" : "AmbientData",
-        "OptionType" : "AVERAGE_AT_JUNCTION",
+        "name" : "Ambient Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Ambient Value"
+        "OptionType" : "AVERAGE_AT_JUNCTION"
       },
       "units" : [ "\u00B0C" ]
     }, {
@@ -393,52 +406,54 @@
       "constituentId" : 1,
       "dataSources" : [ {
         "@type" : "TableData",
+        "name" : "Table Data",
+        "description" : "",
         "availableUnits" : [ ],
         "compType" : 2,
         "dates" : [ ],
-        "description" : "",
-        "name" : "Table Data",
         "values" : [ ]
       }, {
         "@type" : "DssData",
-        "DSS Path" : "",
+        "name" : "DSS",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 0,
-        "description" : "",
-        "name" : "DSS"
+        "DSS Path" : "",
+        "Interpreted Units" : "",
+        "interpretedUnits" : ""
       }, {
         "@type" : "ExcelData",
-        "availableUnits" : [ ],
-        "bottomRow" : 0,
-        "compType" : 2,
-        "description" : "",
         "name" : "Excel Worksheet",
+        "description" : "",
+        "availableUnits" : [ ],
+        "compType" : 2,
+        "bottomRow" : 0,
         "timeColumn" : "",
         "topRow" : 0,
         "valueColumn" : "",
         "worksheetName" : ""
       }, {
         "@type" : "ConstantData",
+        "name" : "Constant Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Constant Value",
         "value" : "-Infinity"
       }, {
         "@type" : "AmbientData",
-        "OptionType" : "AVERAGE_RECIEVING_WATER",
+        "name" : "Ambient Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Ambient Value"
+        "OptionType" : "AVERAGE_RECIEVING_WATER"
       } ],
       "selectedDataSource" : {
         "@type" : "AmbientData",
-        "OptionType" : "AVERAGE_RECIEVING_WATER",
+        "name" : "Ambient Value",
+        "description" : "",
         "availableUnits" : [ "\u00B0C" ],
         "compType" : 2,
-        "description" : "",
-        "name" : "Ambient Value"
+        "OptionType" : "AVERAGE_RECIEVING_WATER"
       },
       "units" : [ "\u00B0C" ]
     } ],
