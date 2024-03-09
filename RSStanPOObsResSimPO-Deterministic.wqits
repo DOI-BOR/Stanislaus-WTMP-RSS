@@ -1,0 +1,7 @@
+TSDataSet Name=RSStanPO-ResSimPO-Deterministic
+Description=ResSim Stanisalus River Alternative; full hydrodraulics and water quality; setup with timeseries for perscribed/historical simulations. (Obs WQ TS Data Set for ResSimPO-Deterministic)
+
+_type=0
+ParentPath=null
+ParentClass=null
+
