@@ -1,13 +1,13 @@
-RssAlt Name=RSStanRiv
+RssAlt Name=StnRvP
 RssAlt Description=ResSim Stanisalus River Alternative; full hydrodraulics; water quality domain is limited to the Stanidsalus River below Tulloch.
 Version=1001
 ModifiedTime=1700247664263
 NetworkID=1
 System Path=rss/2Reservoirs.rsys
 Operations Path=
-InputTSData Path=rss/RSStanRiv.fits
+InputTSData Path=rss/StnRvP.fits
 OutputTSData Path=
-InputGVData Path=rss/RSStanRiv.igv
+InputGVData Path=rss/StnRvP.igv
 InputWQTSDataPath Path=
 OutputVerticalDatum=AS_DEFINED
 FlowComputeType=1
@@ -124,7 +124,7 @@ YieldAnalysesToOutput=1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
 ReservoirStorageVsYieldAnalysisEnd
 TimeStep=1
 TimeIncrement=2
-ObservedTSData Path=rss/RSStanRivObs.fits
+ObservedTSData Path=rss/StnRvPObs.fits
 resOpSelection=7,0
 resOpSelection=0,1
 divOpSelection=41,0
@@ -210,7 +210,7 @@ MaxIterations:-2147483648
 LastIteration:0
 CumulativeTime:0
 SimulationOption:0
-ScriptFilePath:rss/RSStanRiv.mcscript
+ScriptFilePath:rss/StnRvP.mcscript
 IterationString:
 Compute:false
 StandAloneRandomSeed:0.0

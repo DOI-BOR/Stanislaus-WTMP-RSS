@@ -5,6 +5,6 @@
   <TimeStepInfo ModelAlternative="StnP" TimeStep="1 Hour" Lookback="1" />
   <TimeStepInfo ModelAlternative="Flow-Temp" TimeStep="1 Hour" Lookback="1" />
   <TimeStepInfo ModelAlternative="RSStan" TimeStep="1 Hour" Lookback="1" />
-  <TimeStepInfo ModelAlternative="RSStanRiv" TimeStep="1 Hour" Lookback="1" />
+  <TimeStepInfo ModelAlternative="StnRvP" TimeStep="1 Hour" Lookback="1" />
 </ResSimTimeStepMap>
 

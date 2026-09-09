@@ -1,4 +1,4 @@
-TSDataSet Name=RSStanRivObs
+TSDataSet Name=StnRvPObs
 Description=ResSim Stanisalus River Alternative; full hydrodraulics; water quality domain is limited to the Stanidsalus River below Tulloch. (Observed TS Data Set)
 
 _type=0
