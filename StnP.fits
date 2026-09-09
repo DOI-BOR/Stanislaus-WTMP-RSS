@@ -1,4 +1,4 @@
-TSDataSet Name=RSStanPO
+TSDataSet Name=StnP
 Description=ResSim Stanisalus River Alternative; full hydrodraulics and water quality; setup with timeseries for perscribed/historical simulations. (TS Data Set)
 
 _type=0

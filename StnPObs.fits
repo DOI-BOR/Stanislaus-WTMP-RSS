@@ -1,4 +1,4 @@
-TSDataSet Name=RSStanPOObs
+TSDataSet Name=StnPObs
 Description=ResSim Stanisalus River Alternative; full hydrodraulics and water quality; setup with timeseries for perscribed/historical simulations. (Observed TS Data Set)
 
 _type=0
