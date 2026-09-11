@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ResSimTimeStepMap>
-  <TimeStepInfo ModelAlternative="Flow-Only" TimeStep="1 Hour" Lookback="1" />
-  <TimeStepInfo ModelAlternative="RiverOnly" TimeStep="1 Hour" Lookback="1" />
-  <TimeStepInfo ModelAlternative="RSStanPO" TimeStep="1 Hour" Lookback="1" />
-  <TimeStepInfo ModelAlternative="Flow-Temp" TimeStep="1 Hour" Lookback="1" />
-  <TimeStepInfo ModelAlternative="RSStan" TimeStep="1 Hour" Lookback="1" />
-  <TimeStepInfo ModelAlternative="RSStanRiv" TimeStep="1 Hour" Lookback="1" />
+  <TimeStepInfo ModelAlternative="StnP" TimeStep="1 Hour" Lookback="1" />
+  <TimeStepInfo ModelAlternative="StnRvP" TimeStep="1 Hour" Lookback="1" />
 </ResSimTimeStepMap>
 
